@@ -1,0 +1,454 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HOME */
+
+.home-container {
+  position: relative;
+  width: 100%;
+}
+
+.home-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.link {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+}
+
+.about {
+  top: 7.2%;
+  left: 66%;
+  width: 7%;
+  height: 2.5%;
+}
+
+.contact {
+  top: 7.2%;
+  left: 80%;
+  width: 8%;
+  height: 2.5%;
+}
+
+.hyde {
+  top: 20.2%;
+  left: 0;
+  width: 100%;
+  height: 9%;
+}
+
+/* ABOUT */
+
+.about-page {
+  background-color: #efefef;
+}
+
+.about-container {
+  width: 100%;
+}
+
+.about-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* CONTACT */
+
+.contact-page {
+  background-color: #ffffff;
+}
+
+.contact-container {
+  position: relative;
+  width: 100%;
+}
+
+.contact-image {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 40px auto 0 auto;
+}
+
+.contact-link {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+}
+
+.email-link {
+  top: 10.2%;
+  left: 13%;
+  width: 58%;
+  height: 4%;
+}
+
+.linkedin-link {
+  top: 19.1%;
+  left: 18%;
+  width: 48%;
+  height: 4%;
+}
+
+.instagram-link {
+  top: 23.8%;
+  left: 18%;
+  width: 52%;
+  height: 4%;
+}
+
+/* HYDE */
+
+.hyde-page {
+  background-color: white;
+}
+
+.hyde-container {
+  position: relative;
+  width: 100%;
+}
+
+.hyde-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hyde-video {
+  position: absolute;
+  display: block;
+  background-color: black;
+  object-fit: cover;
+}
+
+/* HYDE VIDEOS */
+
+.video-1 {
+  top: 22.9%;
+  left: 0;
+  width: 100%;
+  height: 4.2%;
+}
+
+.video-2 {
+  top: 27.1%;
+  left: 0;
+  width: 100%;
+  height: 4.2%;
+}
+
+.video-3 {
+  top: 56.85%;
+  left: 0;
+  width: 100%;
+  height: 3.3%;
+}
+
+.video-4 {
+  top: 60.15%;
+  left: 36.2%;
+  width: 28.2%;
+  height: 3.541995%;
+}
+
+.video-5 {
+  top: 64.705%;
+  left: 49.90%;
+  width: 50.10%;
+  height: 4.33%;
+}
+
+/* BACK BUTTON */
+
+.back-home-button {
+  position: fixed;
+  top: 28px;
+  right: 35px;
+  z-index: 1000;
+
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+
+  background-color: rgba(58, 58, 58, 1);
+  color: white;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding-bottom: 3px;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1;
+
+  transition: 0.2s ease;
+}
+
+.back-home-button:hover {
+  background-color: white;
+  color: black;
+}
+
+/* SPIDRONE BUTTON ON HOME */
+
+.spidrone {
+  top: 29.5%;
+  left: 0;
+  width: 100%;
+  height: 9%;
+}
+
+/* SPIDRONE PAGE */
+
+.spidrone-page {
+  background-color: white;
+}
+
+.spidrone-container {
+  position: relative;
+  width: 100%;
+}
+
+.spidrone-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.spidrone-video {
+  position: absolute;
+  display: block;
+  background-color: black;
+  object-fit: cover;
+}
+
+/* SPIDRONE VIDEOS */
+
+.spidrone-video-1 {
+  top: 33.3%;
+  left: 0;
+  width: 100%;
+  height: 5.3%;
+}
+
+.spidrone-video-2 {
+  top: 66.78%;
+  left: 0;
+  width: 100%;
+  height: 6.2%;
+}
+
+/* PERSEVERANCE PAGE */
+
+.perseverance-page {
+  background-color: white;
+}
+
+.perseverance-container {
+  width: 100%;
+}
+
+.perseverance-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* PERSEVERANCE BUTTON ON HOME */
+
+.perseverance {
+  top: 48%;
+  left: 0;
+  width: 100%;
+  height: 9%;
+}
+
+/* PINPIZ PAGE */
+
+.pinpiz-page {
+  background-color: white;
+}
+
+.pinpiz-container {
+  width: 100%;
+}
+
+.pinpiz-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* PINPIZ BUTTON ON HOME */
+
+.pinpiz {
+  top: 57.5%;
+  left: 0;
+  width: 100%;
+  height: 9%;
+}
+
+/* MECHDESIGN PAGE */
+
+.mechdesign-page {
+  background-color: white;
+}
+
+.mechdesign-container {
+  width: 100%;
+}
+
+.mechdesign-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* MECHDESIGN BUTTON ON HOME */
+
+.mechdesign {
+  top: 66.7%;
+  left: 0;
+  width: 100%;
+  height: 9%;
+}
+
+/* TRANSPORTS PAGE */
+
+.transports-page {
+  background-color: white;
+}
+
+.transports-container {
+  width: 100%;
+}
+
+.transports-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* TRANSPORTS BUTTON ON HOME */
+
+.transports {
+  top: 76%;
+  left: 0;
+  width: 100%;
+  height: 9%;
+}
+
+/* SKETCH PAGE */
+
+.sketch-page {
+  background-color: white;
+}
+
+.sketch-container {
+  width: 100%;
+}
+
+.sketch-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* SKETCH BUTTON ON HOME */
+
+.sketch {
+  top: 85.4%;
+  left: 0;
+  width: 100%;
+  height: 9%;
+}
+
+/* VISUAL PAGE */
+
+.visual-page {
+  background-color: white;
+}
+
+.visual-container {
+  position: relative;
+  width: 100%;
+}
+
+.visual-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.visual-video {
+  position: absolute;
+  display: block;
+  background-color: black;
+  object-fit: cover;
+}
+
+/* VISUAL VIDEOS */
+
+.visual-video-1 {
+  top: 8.1%;
+  left: 0;
+  width: 100%;
+  height: 4.180%;
+}
+
+.visual-video-2 {
+  top: 90.55%;
+  left: 0;
+  width: 100%;
+  height: 2.36%;
+}
+
+/* VISUAL BUTTON ON HOME */
+
+.visual {
+  top: 11%;
+  left: 0;
+  width: 100%;
+  height: 9%;
+}
+
+/* CUBANIM PAGE */
+
+.cubanim-page {
+  background-color: white;
+}
+
+.cubanim-container {
+  width: 100%;
+}
+
+.cubanim-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* CUBANIM BUTTON ON HOME */
+
+.cubanim {
+  top: 38.72%;
+  left: 0;
+  width: 100%;
+  height: 9%;
+}
