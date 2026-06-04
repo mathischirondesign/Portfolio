@@ -388,12 +388,18 @@ body {
 .visual-container {
   position: relative;
   width: 100%;
+  font-size: 0;
+  line-height: 0;
 }
 
 .visual-image {
   width: 100%;
   height: auto;
   display: block;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 .visual-video {
@@ -401,6 +407,7 @@ body {
   display: block;
   background-color: black;
   object-fit: cover;
+  z-index: 2;
 }
 
 /* VISUAL VIDEOS */
