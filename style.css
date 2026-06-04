@@ -261,13 +261,20 @@ body {
 }
 
 .perseverance-container {
+  position: relative;
   width: 100%;
+  font-size: 0;
+  line-height: 0;
 }
 
 .perseverance-image {
   width: 100%;
   height: auto;
   display: block;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 /* PERSEVERANCE BUTTON ON HOME */
