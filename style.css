@@ -10,122 +10,341 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* HOME */
 
-.home-container {
+
+/* =========================
+COMMON ELEMENTS
+========================= */
+
+.home-container,
+.projects-container,
+.reform-container,
+.hyde-container,
+.spidrone-container {
   position: relative;
   width: 100%;
 }
 
-.home-image {
+.about-container,
+.cubanim-container,
+.perseverance-container,
+.transports-container,
+.sketch-container {
+  width: 100%;
+}
+
+.reform-container,
+.hyde-container,
+.spidrone-container,
+.cubanim-container,
+.perseverance-container,
+.transports-container,
+.sketch-container {
+  font-size: 0;
+  line-height: 0;
+}
+
+.home-image,
+.projects-image,
+.reform-image,
+.hyde-image,
+.spidrone-image,
+.cubanim-image,
+.perseverance-image,
+.transports-image,
+.sketch-image,
+.about-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+
+/* =========================
+COMMON TOP BAR
+========================= */
+
+.home-topbar,
+.about-topbar,
+.projects-topbar,
+.reform-topbar,
+.hyde-topbar,
+.spidrone-topbar,
+.cubanim-topbar,
+.perseverance-topbar,
+.transports-topbar,
+.sketch-topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.home-topbar-image,
+.about-topbar-image,
+.projects-topbar-image,
+.reform-topbar-image,
+.hyde-topbar-image,
+.spidrone-topbar-image,
+.cubanim-topbar-image,
+.perseverance-topbar-image,
+.transports-topbar-image,
+.sketch-topbar-image {
   width: 100%;
   height: auto;
   display: block;
 }
 
-.link {
+.home-nav-home,
+.home-nav-projects,
+.home-nav-about,
+.about-nav-home,
+.about-nav-projects,
+.about-nav-about,
+.projects-nav-home,
+.projects-nav-projects,
+.projects-nav-about,
+.reform-nav-home,
+.reform-nav-projects,
+.reform-nav-about,
+.hyde-nav-home,
+.hyde-nav-projects,
+.hyde-nav-about,
+.spidrone-nav-home,
+.spidrone-nav-projects,
+.spidrone-nav-about,
+.cubanim-nav-home,
+.cubanim-nav-projects,
+.cubanim-nav-about,
+.perseverance-nav-home,
+.perseverance-nav-projects,
+.perseverance-nav-about,
+.transports-nav-home,
+.transports-nav-projects,
+.transports-nav-about,
+.sketch-nav-home,
+.sketch-nav-projects,
+.sketch-nav-about {
   position: absolute;
+  top: 0;
+  height: 100%;
   display: block;
   cursor: pointer;
+  z-index: 2;
 }
 
-.about {
-  top: 7.2%;
-  left: 66%;
-  width: 7%;
-  height: 2.5%;
+.home-nav-home,
+.about-nav-home,
+.projects-nav-home,
+.reform-nav-home,
+.hyde-nav-home,
+.spidrone-nav-home,
+.cubanim-nav-home,
+.perseverance-nav-home,
+.transports-nav-home,
+.sketch-nav-home {
+  left: 57%;
+  width: 9%;
 }
 
-.contact {
-  top: 7.2%;
-  left: 80%;
-  width: 8%;
-  height: 2.5%;
+.home-nav-projects,
+.about-nav-projects,
+.projects-nav-projects,
+.reform-nav-projects,
+.hyde-nav-projects,
+.spidrone-nav-projects,
+.cubanim-nav-projects,
+.perseverance-nav-projects,
+.transports-nav-projects,
+.sketch-nav-projects {
+  left: 70%;
+  width: 12%;
 }
 
-.hyde {
-  top: 20.2%;
+.home-nav-about,
+.about-nav-about,
+.projects-nav-about,
+.reform-nav-about,
+.hyde-nav-about,
+.spidrone-nav-about,
+.cubanim-nav-about,
+.perseverance-nav-about,
+.transports-nav-about,
+.sketch-nav-about {
+  left: 87%;
+  width: 10%;
+}
+
+
+
+/* =========================
+HOME
+========================= */
+
+.home-page {
+  background-color: black;
+}
+
+.home-project-link {
+  position: absolute;
   left: 0;
   width: 100%;
-  height: 9%;
+  height: 10.3%;
+  display: block;
+  cursor: pointer;
+  z-index: 10;
 }
 
-/* ABOUT */
+.home-project-reform {
+  top: 17%;
+}
+
+.home-project-hyde {
+  top: 27%;
+}
+
+.home-project-spidrone {
+  top: 37.5%;
+}
+
+.home-project-cubanim {
+  top: 47.8%;
+}
+
+.home-project-perseverance {
+  top: 58%;
+}
+
+.home-project-transports {
+  top: 68%;
+}
+
+.home-project-sketch {
+  top: 78.4%;
+}
+
+
+
+/* =========================
+ABOUT
+========================= */
 
 .about-page {
   background-color: #efefef;
 }
 
-.about-container {
-  width: 100%;
-}
 
-.about-image {
-  width: 100%;
-  height: auto;
-  display: block;
-}
 
-/* CONTACT */
+/* =========================
+PROJECTS
+========================= */
 
-.contact-page {
-  background-color: #ffffff;
-}
-
-.contact-container {
-  position: relative;
-  width: 100%;
-}
-
-.contact-image {
-  width: 80%;
-  height: auto;
-  display: block;
-  margin: 40px auto 0 auto;
-}
-
-.contact-link {
-  position: absolute;
-  display: block;
-  cursor: pointer;
-}
-
-.email-link {
-  top: 10.2%;
-  left: 13%;
-  width: 58%;
-  height: 4%;
-}
-
-.linkedin-link {
-  top: 19.1%;
-  left: 18%;
-  width: 48%;
-  height: 4%;
-}
-
-.instagram-link {
-  top: 23.8%;
-  left: 18%;
-  width: 52%;
-  height: 4%;
-}
-
-/* HYDE */
-
-.hyde-page {
+.projects-page {
   background-color: white;
 }
 
-.hyde-container {
-  position: relative;
-  width: 100%;
+.project-link {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  z-index: 10;
 }
 
-.hyde-image {
-  width: 100%;
-  height: auto;
+.project-reform {
+  top: 10.1%;
+  left: 2.7%;
+  width: 31.4%;
+  height: 17.2%;
+}
+
+.project-hyde {
+  top: 10.1%;
+  left: 34.4%;
+  width: 31.4%;
+  height: 17.2%;
+}
+
+.project-spidrone {
+  top: 10.1%;
+  left: 66%;
+  width: 31.4%;
+  height: 17.2%;
+}
+
+.project-cubanim {
+  top: 33.7%;
+  left: 2.7%;
+  width: 31.4%;
+  height: 17.2%;
+}
+
+.project-perseverance {
+  top: 33.7%;
+  left: 34.4%;
+  width: 31.4%;
+  height: 17.2%;
+}
+
+.project-transports {
+  top: 33.7%;
+  left: 66%;
+  width: 31.4%;
+  height: 17.2%;
+}
+
+.project-sketch {
+  top: 57.4%;
+  left: 2.7%;
+  width: 31.4%;
+  height: 17.2%;
+}
+
+
+
+/* =========================
+REFORM
+========================= */
+
+.reform-page {
+  background-color: white;
+}
+
+.reform-video {
+  position: absolute;
   display: block;
+  background-color: black;
+  object-fit: cover;
+  z-index: 2;
+}
+
+.reform-video-1 {
+  top: 8.1%;
+  left: 0;
+  width: 100%;
+  height: 4.180%;
+}
+
+.reform-video-2 {
+  top: 90.55%;
+  left: 0;
+  width: 100%;
+  height: 2.36%;
+}
+
+
+
+/* =========================
+HYDE
+========================= */
+
+.hyde-page {
+  background-color: white;
 }
 
 .hyde-video {
@@ -133,102 +352,52 @@ body {
   display: block;
   background-color: black;
   object-fit: cover;
+  z-index: 2;
 }
 
-/* HYDE VIDEOS */
-
-.video-1 {
+.hyde-video-1 {
   top: 22.9%;
   left: 0;
   width: 100%;
   height: 4.2%;
 }
 
-.video-2 {
+.hyde-video-2 {
   top: 27.1%;
   left: 0;
   width: 100%;
   height: 4.2%;
 }
 
-.video-3 {
+.hyde-video-3 {
   top: 56.85%;
   left: 0;
   width: 100%;
   height: 3.3%;
 }
 
-.video-4 {
+.hyde-video-4 {
   top: 60.15%;
   left: 36.2%;
   width: 28.2%;
   height: 3.541995%;
 }
 
-.video-5 {
+.hyde-video-5 {
   top: 64.705%;
   left: 49.90%;
   width: 50.10%;
   height: 4.33%;
 }
 
-/* BACK BUTTON */
 
-.back-home-button {
-  position: fixed;
-  top: 28px;
-  right: 35px;
-  z-index: 1000;
 
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-
-  background-color: rgba(58, 58, 58, 1);
-  color: white;
-  text-decoration: none;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  padding-bottom: 3px;
-  font-size: 28px;
-  font-weight: 400;
-  line-height: 1;
-
-  transition: 0.2s ease;
-}
-
-.back-home-button:hover {
-  background-color: white;
-  color: black;
-}
-
-/* SPIDRONE BUTTON ON HOME */
-
-.spidrone {
-  top: 29.5%;
-  left: 0;
-  width: 100%;
-  height: 9%;
-}
-
-/* SPIDRONE PAGE */
+/* =========================
+SPIDRONE
+========================= */
 
 .spidrone-page {
   background-color: white;
-}
-
-.spidrone-container {
-  position: relative;
-  width: 100%;
-}
-
-.spidrone-image {
-  width: 100%;
-  height: auto;
-  display: block;
 }
 
 .spidrone-video {
@@ -236,9 +405,8 @@ body {
   display: block;
   background-color: black;
   object-fit: cover;
+  z-index: 2;
 }
-
-/* SPIDRONE VIDEOS */
 
 .spidrone-video-1 {
   top: 33.3%;
@@ -254,231 +422,42 @@ body {
   height: 6.2%;
 }
 
-/* PERSEVERANCE PAGE */
 
-.perseverance-page {
-  background-color: white;
-}
 
-.perseverance-container {
-  position: relative;
-  width: 100%;
-  font-size: 0;
-  line-height: 0;
-}
-
-.perseverance-image {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 0;
-  padding: 0;
-  user-select: none;
-  -webkit-user-drag: none;
-}
-
-/* PERSEVERANCE BUTTON ON HOME */
-
-.perseverance {
-  top: 48%;
-  left: 0;
-  width: 100%;
-  height: 9%;
-}
-
-/* PINPIZ PAGE */
-
-.pinpiz-page {
-  background-color: white;
-}
-
-.pinpiz-container {
-  width: 100%;
-}
-
-.pinpiz-image {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* PINPIZ BUTTON ON HOME */
-
-.pinpiz {
-  top: 57.5%;
-  left: 0;
-  width: 100%;
-  height: 9%;
-}
-
-/* MECHDESIGN PAGE */
-
-.mechdesign-page {
-  background-color: white;
-}
-
-.mechdesign-container {
-  width: 100%;
-}
-
-.mechdesign-image {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* MECHDESIGN BUTTON ON HOME */
-
-.mechdesign {
-  top: 66.7%;
-  left: 0;
-  width: 100%;
-  height: 9%;
-}
-
-/* TRANSPORTS PAGE */
-
-.transports-page {
-  background-color: white;
-}
-
-.transports-container {
-  width: 100%;
-}
-
-.transports-image {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* TRANSPORTS BUTTON ON HOME */
-
-.transports {
-  top: 76%;
-  left: 0;
-  width: 100%;
-  height: 9%;
-}
-
-/* SKETCH PAGE */
-
-.sketch-page {
-  background-color: white;
-}
-
-.sketch-container {
-  width: 100%;
-}
-
-.sketch-image {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* SKETCH BUTTON ON HOME */
-
-.sketch {
-  top: 85.4%;
-  left: 0;
-  width: 100%;
-  height: 9%;
-}
-
-/* VISUAL PAGE */
-
-.visual-page {
-  background-color: white;
-}
-
-.visual-container {
-  position: relative;
-  width: 100%;
-  font-size: 0;
-  line-height: 0;
-}
-
-.visual-image {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 0;
-  padding: 0;
-  user-select: none;
-  -webkit-user-drag: none;
-}
-
-.visual-video {
-  position: absolute;
-  display: block;
-  background-color: black;
-  object-fit: cover;
-  z-index: 2;
-}
-
-/* VISUAL VIDEOS */
-
-.visual-video-1 {
-  top: 8.1%;
-  left: 0;
-  width: 100%;
-  height: 4.180%;
-}
-
-.visual-video-2 {
-  top: 90.55%;
-  left: 0;
-  width: 100%;
-  height: 2.36%;
-}
-
-/* VISUAL BUTTON ON HOME */
-
-.visual {
-  top: 11%;
-  left: 0;
-  width: 100%;
-  height: 9%;
-}
-
-/* CUBANIM PAGE */
+/* =========================
+CUBANIM
+========================= */
 
 .cubanim-page {
   background-color: white;
 }
 
-.cubanim-container {
-  width: 100%;
+
+
+/* =========================
+PERSEVERANCE
+========================= */
+
+.perseverance-page {
+  background-color: white;
 }
 
-.cubanim-image {
-  width: 100%;
-  height: auto;
-  display: block;
+
+
+/* =========================
+TRANSPORTS
+========================= */
+
+.transports-page {
+  background-color: white;
 }
 
-/* CUBANIM BUTTON ON HOME */
 
-.cubanim {
-  top: 38.72%;
-  left: 0;
-  width: 100%;
-  height: 9%;
-}
 
-/* PINPIZ VIDEO */
+/* =========================
+SKETCH
+========================= */
 
-.pinpiz-video {
-    position: absolute;
-
-    top: 299.2%;
-    left: 13%;
-
-    width: 20%;
-    height: 84%;
-
-    object-fit: cover;
-
-    transform: scale(1.232);
+.sketch-page {
+  background-color: white;
 }
