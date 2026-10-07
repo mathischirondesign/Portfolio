@@ -1,0 +1,51 @@
+/* =========================
+ABOUT PAGE
+========================= */
+
+.about-page {
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+
+  background-color: white;
+
+  overflow-x: hidden;
+}
+
+
+/* =========================
+ABOUT CONTAINER
+========================= */
+
+.about-container {
+  position: relative;
+
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  font-size: 0;
+  line-height: 0;
+}
+
+
+/* =========================
+ABOUT IMAGE
+========================= */
+
+.about-image {
+  width: 100%;
+  height: auto;
+
+  margin: 0;
+  padding: 0;
+
+  display: block;
+
+  user-select: none;
+  -webkit-user-select: none;
+
+  -webkit-user-drag: none;
+}

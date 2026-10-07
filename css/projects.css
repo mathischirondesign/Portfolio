@@ -1,0 +1,228 @@
+/* =========================
+PROJECTS PAGE
+========================= */
+
+.projects-page {
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+
+  background-color: white;
+
+  overflow-x: hidden;
+}
+
+
+
+/* =========================
+PROJECTS CONTAINER
+========================= */
+
+.projects-container {
+  position: relative;
+
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  font-size: 0;
+  line-height: 0;
+}
+
+
+
+/* =========================
+PROJECTS IMAGE
+========================= */
+
+.projects-image {
+  width: 100%;
+  height: auto;
+
+  margin: 0;
+  padding: 0;
+
+  display: block;
+
+  user-select: none;
+  -webkit-user-select: none;
+
+  -webkit-user-drag: none;
+}
+
+
+
+/* =========================
+PROJECT LINKS
+
+All cards:
+W = 450
+H = 478
+
+450 / 1440 = 31.25vw
+478 / 1440 = 33.194444vw
+========================= */
+
+.projects-link {
+  position: absolute;
+
+  width: 31.25vw;
+  height: 33.194444vw;
+
+  display: block;
+
+  z-index: 10;
+
+  cursor: pointer;
+
+  background: transparent;
+}
+
+
+
+/* =========================
+01 - TAB
+
+FIGMA:
+X = 40
+Y = 280
+W = 450
+H = 478
+========================= */
+
+.projects-tab {
+  left: 2.777778vw;
+  top: 19.444444vw;
+}
+
+
+
+/* =========================
+02 - HYDE
+
+FIGMA:
+X = 495
+Y = 280
+W = 450
+H = 478
+========================= */
+
+.projects-hyde {
+  left: 34.375vw;
+  top: 19.444444vw;
+}
+
+
+
+/* =========================
+03 - REFORM
+
+FIGMA:
+X = 950
+Y = 280
+W = 450
+H = 478
+========================= */
+
+.projects-reform {
+  left: 65.972222vw;
+  top: 19.444444vw;
+}
+
+
+
+/* =========================
+04 - SPIDRONE
+
+FIGMA:
+X = 40
+Y = 938
+W = 450
+H = 478
+========================= */
+
+.projects-spidrone {
+  left: 2.777778vw;
+  top: 65.138889vw;
+}
+
+
+
+/* =========================
+05 - CUBANIM
+
+FIGMA:
+X = 495
+Y = 938
+W = 450
+H = 478
+========================= */
+
+.projects-cubanim {
+  left: 34.375vw;
+  top: 65.138889vw;
+}
+
+
+
+/* =========================
+06 - PERSEVERANCE
+
+FIGMA:
+X = 950
+Y = 938
+W = 450
+H = 478
+========================= */
+
+.projects-perseverance {
+  left: 65.972222vw;
+  top: 65.138889vw;
+}
+
+
+
+/* =========================
+07 - TRANSPORTS
+
+FIGMA:
+X = 40
+Y = 1596
+W = 450
+H = 478
+========================= */
+
+.projects-transports {
+  left: 2.777778vw;
+  top: 110.833333vw;
+}
+
+
+
+/* =========================
+08 - SKETCH
+
+FIGMA:
+X = 495
+Y = 1596
+W = 450
+H = 478
+========================= */
+
+.projects-sketch {
+  left: 34.375vw;
+  top: 110.833333vw;
+}
+
+
+
+/* =========================
+PROJECT LINK ACCESSIBILITY
+========================= */
+
+.projects-link:focus-visible {
+  outline: 2px solid black;
+  outline-offset: -2px;
+}

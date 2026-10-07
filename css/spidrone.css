@@ -1,0 +1,321 @@
+/* =========================
+SPIDRONE PAGE
+========================= */
+
+.spidrone-page {
+  background-color: white;
+}
+
+
+
+/* =========================
+SPIDRONE CONTAINER
+========================= */
+
+.spidrone-container {
+  position: relative;
+  width: 100%;
+  font-size: 0;
+  line-height: 0;
+}
+
+.spidrone-panel {
+  position: relative;
+  width: 100%;
+}
+
+
+
+/* =========================
+SPIDRONE IMAGES
+========================= */
+
+.spidrone-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+
+/* =========================
+SPIDRONE TOP BAR
+========================= */
+
+.spidrone-topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.spidrone-topbar-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+
+/* =========================
+TOP BAR NAVIGATION
+========================= */
+
+.spidrone-nav-home,
+.spidrone-nav-projects,
+.spidrone-nav-about {
+  position: absolute;
+  top: 8%;
+  height: 86%;
+  display: block;
+  z-index: 1001;
+  cursor: pointer;
+}
+
+/* HOME */
+.spidrone-nav-home {
+  left: 52.777778%;
+  width: 8.75%;
+}
+
+/* PROJECTS */
+.spidrone-nav-projects {
+  left: 68.611111%;
+  width: 11.111111%;
+}
+
+/* ABOUT */
+.spidrone-nav-about {
+  left: 86.805556%;
+  width: 9.166667%;
+}
+
+
+
+/* =========================
+SPIDRONE VIDEOS
+========================= */
+
+.spidrone-video {
+  position: absolute;
+  display: block;
+  object-fit: cover;
+  background-color: black;
+  z-index: 2;
+}
+
+
+
+/* =========================
+VIDEO 1
+Frame: spidrone-01
+X = 0
+Y = 3700
+W = 1200
+H = 600
+Frame = 1440 x 5000
+========================= */
+
+.spidrone-video-1 {
+  left: 0%;
+  top: 74%;
+  width: 83.333333%;
+  height: 12%;
+}
+
+
+
+/* =========================
+VIDEO 2
+Frame: spidrone-02
+Global Y = 7100
+spidrone-02 starts at 5000
+Local Y = 2100
+W = 1200
+H = 700
+Frame = 1440 x 5000
+========================= */
+
+.spidrone-video-2 {
+  left: 0%;
+  top: 42%;
+  width: 83.333333%;
+  height: 14%;
+}
+
+
+
+/* =========================
+SPIDRONE NUMBER NAVIGATION
+========================= */
+
+.spidrone-number {
+  position: absolute;
+  left: 83.333333%;
+  width: 16.666667%;
+  height: auto;
+  z-index: 20;
+}
+
+.spidrone-number-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+
+/* =========================
+NUMBER CLICK AREAS
+========================= */
+
+.spidrone-number-down,
+.spidrone-number-up {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  z-index: 21;
+}
+
+.spidrone-number-down {
+  top: 0;
+  height: 40%;
+}
+
+.spidrone-number-up {
+  bottom: 0;
+  height: 40%;
+}
+
+.spidrone-number-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+
+
+/* =========================
+SCROLL TARGETS
+========================= */
+
+.spidrone-anchor {
+  position: absolute;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  pointer-events: none;
+  scroll-margin-top: clamp(120px, 11vw, 220px);
+}
+
+
+
+/* ==================================================
+SPIDRONE NUMBER RULES
+
+All Numbers:
+X = 1200
+W = 240
+H = 126
+
+1200 / 1440 = 83.333333%
+240 / 1440 = 16.666667%
+================================================== */
+
+
+
+/* ==================================================
+SPIDRONE-01
+1440 x 5000
+================================================== */
+
+/* NUMBER 01
+Y = 1300 */
+.spidrone-number-01,
+.spidrone-anchor-01 {
+  top: 26%;
+}
+
+/* NUMBER 02
+Y = 4500 */
+.spidrone-number-02,
+.spidrone-anchor-02 {
+  top: 90%;
+}
+
+
+
+/* ==================================================
+SPIDRONE-02
+1440 x 5000
+Global start = 5000
+================================================== */
+
+/* NUMBER 03
+Global Y = 5300
+Local Y = 300 */
+.spidrone-number-03,
+.spidrone-anchor-03 {
+  top: 6%;
+}
+
+/* NUMBER 04
+Global Y = 6120
+Local Y = 1120 */
+.spidrone-number-04,
+.spidrone-anchor-04 {
+  top: 22.4%;
+}
+
+/* NUMBER 05
+Global Y = 7100
+Local Y = 2100 */
+.spidrone-number-05,
+.spidrone-anchor-05 {
+  top: 42%;
+}
+
+/* NUMBER 06
+Global Y = 8000
+Local Y = 3000 */
+.spidrone-number-06,
+.spidrone-anchor-06 {
+  top: 60%;
+}
+
+/* NUMBER 07
+Global Y = 8880
+Local Y = 3880 */
+.spidrone-number-07,
+.spidrone-anchor-07 {
+  top: 77.6%;
+}
+
+/* NUMBER 08
+Global Y = 9700
+Local Y = 4700 */
+.spidrone-number-08,
+.spidrone-anchor-08 {
+  top: 94%;
+}
+
+
+
+/* ==================================================
+SPIDRONE-03
+1440 x 2200
+================================================== */
+
+.spidrone-anchor-end {
+  top: 0;
+}

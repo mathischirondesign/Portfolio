@@ -1,0 +1,356 @@
+/* =========================
+TRANSPORTS PAGE
+========================= */
+
+.transports-page {
+  background-color: white;
+}
+
+
+
+/* =========================
+TRANSPORTS CONTAINER
+========================= */
+
+.transports-container {
+  position: relative;
+
+  width: 100%;
+
+  font-size: 0;
+  line-height: 0;
+}
+
+
+
+.transports-panel {
+  position: relative;
+
+  width: 100%;
+}
+
+
+
+/* =========================
+TRANSPORTS IMAGES
+========================= */
+
+.transports-image {
+  width: 100%;
+  height: auto;
+
+  display: block;
+
+  margin: 0;
+  padding: 0;
+
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+
+/* =========================
+TRANSPORTS TOP BAR
+========================= */
+
+.transports-topbar {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+
+  z-index: 1000;
+}
+
+
+
+.transports-topbar-image {
+  width: 100%;
+  height: auto;
+
+  display: block;
+
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+
+/* =========================
+TOP BAR NAVIGATION
+========================= */
+
+.transports-nav-home,
+.transports-nav-projects,
+.transports-nav-about {
+  position: absolute;
+
+  top: 8%;
+  height: 86%;
+
+  display: block;
+
+  z-index: 1001;
+
+  cursor: pointer;
+}
+
+
+
+/* HOME */
+
+.transports-nav-home {
+  left: 52.777778%;
+  width: 8.75%;
+}
+
+
+
+/* PROJECTS */
+
+.transports-nav-projects {
+  left: 68.611111%;
+  width: 11.111111%;
+}
+
+
+
+/* ABOUT */
+
+.transports-nav-about {
+  left: 86.805556%;
+  width: 9.166667%;
+}
+
+
+
+/* =========================
+NUMBER NAVIGATION
+========================= */
+
+.transports-number {
+  position: absolute;
+
+  left: 83.333333%;
+
+  width: 16.666667%;
+  height: auto;
+
+  z-index: 20;
+}
+
+
+
+.transports-number-image {
+  width: 100%;
+  height: auto;
+
+  display: block;
+
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+
+/* =========================
+NUMBER CLICK AREAS
+========================= */
+
+.transports-number-down,
+.transports-number-up {
+  position: absolute;
+
+  left: 0;
+
+  width: 100%;
+
+  display: block;
+
+  cursor: pointer;
+
+  z-index: 21;
+}
+
+
+
+.transports-number-down {
+  top: 0;
+
+  height: 40%;
+}
+
+
+
+.transports-number-up {
+  bottom: 0;
+
+  height: 40%;
+}
+
+
+
+.transports-number-disabled {
+  pointer-events: none;
+
+  cursor: default;
+}
+
+
+
+/* =========================
+SCROLL TARGETS
+========================= */
+
+.transports-anchor {
+  position: absolute;
+
+  left: 0;
+
+  width: 1px;
+  height: 1px;
+
+  pointer-events: none;
+
+  scroll-margin-top: clamp(120px, 11vw, 220px);
+}
+
+
+
+/* ==================================================
+NUMBER DIMENSIONS
+
+X = 1200
+W = 240
+H = 126
+
+1200 / 1440 = 83.333333%
+240 / 1440 = 16.666667%
+================================================== */
+
+
+
+/* ==================================================
+TRANSPORTS 01
+
+Frame:
+1440 x 5500
+
+Global:
+0 → 5500
+================================================== */
+
+
+/* =========================
+NUMBER 01
+
+Y = 1300
+
+1300 / 5500
+========================= */
+
+.transports-number-01,
+.transports-anchor-01 {
+  top: 23.636364%;
+}
+
+
+
+/* =========================
+NUMBER 02
+
+Y = 3720
+
+3720 / 5500
+========================= */
+
+.transports-number-02,
+.transports-anchor-02 {
+  top: 67.636364%;
+}
+
+
+
+/* ==================================================
+TRANSPORTS 02
+
+Frame:
+1440 x 6120
+
+Global start:
+Y = 5500
+================================================== */
+
+
+/* =========================
+NUMBER 03
+
+Global Y = 5770
+
+Local:
+5770 - 5500 = 270
+
+270 / 6120
+========================= */
+
+.transports-number-03,
+.transports-anchor-03 {
+  top: 4.411765%;
+}
+
+
+
+/* =========================
+NUMBER 04
+
+Global Y = 7670
+
+Local:
+7670 - 5500 = 2170
+
+2170 / 6120
+========================= */
+
+.transports-number-04,
+.transports-anchor-04 {
+  top: 35.457516%;
+}
+
+
+
+/* =========================
+NUMBER 05
+
+Global Y = 8870
+
+Local:
+8870 - 5500 = 3370
+
+3370 / 6120
+========================= */
+
+.transports-number-05,
+.transports-anchor-05 {
+  top: 55.065359%;
+}
+
+
+
+/* =========================
+NUMBER 06
+
+Global Y = 9970
+
+Local:
+9970 - 5500 = 4470
+
+4470 / 6120
+========================= */
+
+.transports-number-06,
+.transports-anchor-06 {
+  top: 73.039216%;
+}

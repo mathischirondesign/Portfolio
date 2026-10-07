@@ -4,54 +4,341 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>CUBANIM</title>
+
   <link rel="icon" type="image/png" href="images/0.Home/FAVICON.png">
-  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/cubanim.css">
 </head>
 
 <body class="cubanim-page">
 
+
+  <!-- =========================
+  TOP BAR
+  ========================== -->
+
   <div class="cubanim-topbar">
+
     <img
-      src="images/04.Cubanim/BAR.png"
+      src="images/Cubanim/BAR.png"
       alt="Navigation"
       class="cubanim-topbar-image"
       draggable="false"
     >
 
-    <a class="cubanim-nav-home" href="home.html" aria-label="Home"></a>
-    <a class="cubanim-nav-projects" href="projects.html" aria-label="Projects"></a>
-    <a class="cubanim-nav-about" href="about.html" aria-label="About"></a>
-  </div>
+    <a
+      class="cubanim-nav-home"
+      href="home.html"
+      aria-label="Home">
+    </a>
 
-  <div class="cubanim-container">
+    <a
+      class="cubanim-nav-projects"
+      href="projects.html"
+      aria-label="Projects">
+    </a>
 
-    <img
-      src="images/04.Cubanim/cubanim-01.jpg"
-      alt="CUBANIM Project part 1"
-      class="cubanim-image"
-      draggable="false"
-    >
-
-    <img
-      src="images/04.Cubanim/cubanim-02.jpg"
-      alt="CUBANIM Project part 2"
-      class="cubanim-image"
-      draggable="false"
-    >
-
-    <img
-      src="images/04.Cubanim/cubanim-03.jpg"
-      alt="CUBANIM Project part 3"
-      class="cubanim-image"
-      draggable="false"
-    >
+    <a
+      class="cubanim-nav-about"
+      href="about.html"
+      aria-label="About">
+    </a>
 
   </div>
+
+
+
+  <!-- =========================
+  CUBANIM CONTAINER
+  ========================== -->
+
+  <main class="cubanim-container">
+
+
+
+    <!-- ==================================================
+    CUBANIM 01
+    1440 x 5000
+    =================================================== -->
+
+    <section class="cubanim-panel cubanim-panel-01">
+
+      <img
+        src="images/Cubanim/cubanim-01.jpg"
+        alt="CUBANIM project page 01"
+        class="cubanim-image"
+        draggable="false"
+      >
+
+
+
+      <!-- NUMBER 01 -->
+
+      <div
+        id="cubanim-anchor-01"
+        class="cubanim-anchor cubanim-anchor-01">
+      </div>
+
+      <div class="cubanim-number cubanim-number-01">
+
+        <img
+          src="images/Cubanim/Number 01.png"
+          alt="01"
+          class="cubanim-number-image"
+          draggable="false"
+        >
+
+        <a
+          href="#cubanim-anchor-02"
+          class="cubanim-number-down"
+          aria-label="Next section">
+        </a>
+
+        <span
+          class="cubanim-number-up cubanim-number-disabled">
+        </span>
+
+      </div>
+
+
+
+      <!-- NUMBER 02 -->
+
+      <div
+        id="cubanim-anchor-02"
+        class="cubanim-anchor cubanim-anchor-02">
+      </div>
+
+      <div class="cubanim-number cubanim-number-02">
+
+        <img
+          src="images/Cubanim/Number 02.png"
+          alt="02"
+          class="cubanim-number-image"
+          draggable="false"
+        >
+
+        <a
+          href="#cubanim-anchor-03"
+          class="cubanim-number-down"
+          aria-label="Next section">
+        </a>
+
+        <a
+          href="#cubanim-anchor-01"
+          class="cubanim-number-up"
+          aria-label="Previous section">
+        </a>
+
+      </div>
+
+    </section>
+
+
+
+
+
+    <!-- ==================================================
+    CUBANIM 02
+    1440 x 4880
+    =================================================== -->
+
+    <section class="cubanim-panel cubanim-panel-02">
+
+      <img
+        src="images/Cubanim/cubanim-02.jpg"
+        alt="CUBANIM project page 02"
+        class="cubanim-image"
+        draggable="false"
+      >
+
+
+
+      <!-- =========================
+      VIDEO 1
+      ========================== -->
+
+      <video
+        class="cubanim-video cubanim-video-1"
+        autoplay
+        muted
+        loop
+        playsinline
+      >
+        <source
+          src="images/Cubanim/video-1.mp4"
+          type="video/mp4"
+        >
+      </video>
+
+
+
+      <!-- =========================
+      VIDEO 2
+      ========================== -->
+
+      <video
+        class="cubanim-video cubanim-video-2"
+        autoplay
+        muted
+        loop
+        playsinline
+      >
+        <source
+          src="images/Cubanim/video-2.mp4"
+          type="video/mp4"
+        >
+      </video>
+
+
+
+      <!-- =========================
+      VIDEO 3
+      ========================== -->
+
+      <video
+        class="cubanim-video cubanim-video-3"
+        autoplay
+        muted
+        loop
+        playsinline
+      >
+        <source
+          src="images/Cubanim/video-3.mp4"
+          type="video/mp4"
+        >
+      </video>
+
+
+
+      <!-- =========================
+      VIDEO 4
+      ========================== -->
+
+      <video
+        class="cubanim-video cubanim-video-4"
+        autoplay
+        muted
+        loop
+        playsinline
+      >
+        <source
+          src="images/Cubanim/video-4.mp4"
+          type="video/mp4"
+        >
+      </video>
+
+
+
+      <!-- NUMBER 03 -->
+
+      <div
+        id="cubanim-anchor-03"
+        class="cubanim-anchor cubanim-anchor-03">
+      </div>
+
+      <div class="cubanim-number cubanim-number-03">
+
+        <img
+          src="images/Cubanim/Number 03.png"
+          alt="03"
+          class="cubanim-number-image"
+          draggable="false"
+        >
+
+        <a
+          href="#cubanim-anchor-04"
+          class="cubanim-number-down"
+          aria-label="Next section">
+        </a>
+
+        <a
+          href="#cubanim-anchor-02"
+          class="cubanim-number-up"
+          aria-label="Previous section">
+        </a>
+
+      </div>
+
+
+
+      <!-- NUMBER 04 -->
+
+      <div
+        id="cubanim-anchor-04"
+        class="cubanim-anchor cubanim-anchor-04">
+      </div>
+
+      <div class="cubanim-number cubanim-number-04">
+
+        <img
+          src="images/Cubanim/Number 04.png"
+          alt="04"
+          class="cubanim-number-image"
+          draggable="false"
+        >
+
+        <a
+          href="#cubanim-anchor-05"
+          class="cubanim-number-down"
+          aria-label="Next section">
+        </a>
+
+        <a
+          href="#cubanim-anchor-03"
+          class="cubanim-number-up"
+          aria-label="Previous section">
+        </a>
+
+      </div>
+
+
+
+      <!-- NUMBER 05 -->
+
+      <div
+        id="cubanim-anchor-05"
+        class="cubanim-anchor cubanim-anchor-05">
+      </div>
+
+      <div class="cubanim-number cubanim-number-05">
+
+        <img
+          src="images/Cubanim/Number 05.png"
+          alt="05"
+          class="cubanim-number-image"
+          draggable="false"
+        >
+
+        <span
+          class="cubanim-number-down cubanim-number-disabled">
+        </span>
+
+        <a
+          href="#cubanim-anchor-04"
+          class="cubanim-number-up"
+          aria-label="Previous section">
+        </a>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
 
   <script>
-    document.addEventListener('contextmenu', event => event.preventDefault());
+    document.addEventListener(
+      "contextmenu",
+      event => event.preventDefault()
+    );
   </script>
+
 
 </body>
 

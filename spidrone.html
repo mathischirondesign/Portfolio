@@ -4,63 +4,366 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>SPIDRONE</title>
+
   <link rel="icon" type="image/png" href="images/0.Home/FAVICON.png">
-  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/spidrone.css">
 </head>
 
 <body class="spidrone-page">
 
+
+  <!-- =========================
+  TOP BAR
+  ========================== -->
+
   <div class="spidrone-topbar">
+
     <img
-      src="images/03.Spidrone/BAR.png"
+      src="images/Spidrone/BAR.png"
       alt="Navigation"
       class="spidrone-topbar-image"
       draggable="false"
     >
 
-    <a class="spidrone-nav-home" href="home.html" aria-label="Home"></a>
-    <a class="spidrone-nav-projects" href="projects.html" aria-label="Projects"></a>
-    <a class="spidrone-nav-about" href="about.html" aria-label="About"></a>
-  </div>
+    <a
+      class="spidrone-nav-home"
+      href="home.html"
+      aria-label="Home">
+    </a>
 
-  <div class="spidrone-container">
+    <a
+      class="spidrone-nav-projects"
+      href="projects.html"
+      aria-label="Projects">
+    </a>
 
-    <img
-      src="images/03.Spidrone/spidrone-01.jpg"
-      alt="SPIDRONE Project part 1"
-      class="spidrone-image"
-      draggable="false"
-    >
-
-    <img
-      src="images/03.Spidrone/spidrone-02.jpg"
-      alt="SPIDRONE Project part 2"
-      class="spidrone-image"
-      draggable="false"
-    >
-
-    <img
-      src="images/03.Spidrone/spidrone-03.jpg"
-      alt="SPIDRONE Project part 3"
-      class="spidrone-image"
-      draggable="false"
-    >
-
-    <video class="spidrone-video spidrone-video-1" autoplay muted loop playsinline>
-      <source src="images/03.Spidrone/video-1.mp4" type="video/mp4">
-    </video>
-
-    <video class="spidrone-video spidrone-video-2" autoplay muted loop playsinline>
-      <source src="images/03.Spidrone/video-2.mp4" type="video/mp4">
-    </video>
+    <a
+      class="spidrone-nav-about"
+      href="about.html"
+      aria-label="About">
+    </a>
 
   </div>
+
+
+
+  <!-- =========================
+  SPIDRONE CONTAINER
+  ========================== -->
+
+  <main class="spidrone-container">
+
+
+
+    <!-- ==================================================
+    SPIDRONE 01
+    1440 x 5000
+    =================================================== -->
+
+    <section class="spidrone-panel spidrone-panel-01">
+
+      <img
+        src="images/Spidrone/spidrone-01.jpg"
+        alt="SPIDRONE project page 01"
+        class="spidrone-image"
+        draggable="false"
+      >
+
+
+      <!-- VIDEO 1 -->
+
+      <video
+        class="spidrone-video spidrone-video-1"
+        autoplay
+        muted
+        loop
+        playsinline
+      >
+        <source src="images/Spidrone/video-1.mp4" type="video/mp4">
+      </video>
+
+
+
+      <!-- NUMBER 01 -->
+
+      <div id="spidrone-anchor-01" class="spidrone-anchor spidrone-anchor-01"></div>
+
+      <div class="spidrone-number spidrone-number-01">
+        <img
+          src="images/Spidrone/Number 01.png"
+          alt="01"
+          class="spidrone-number-image"
+          draggable="false"
+        >
+
+        <a
+          href="#spidrone-anchor-02"
+          class="spidrone-number-down"
+          aria-label="Next section">
+        </a>
+
+        <span class="spidrone-number-up spidrone-number-disabled"></span>
+      </div>
+
+
+
+      <!-- NUMBER 02 -->
+
+      <div id="spidrone-anchor-02" class="spidrone-anchor spidrone-anchor-02"></div>
+
+      <div class="spidrone-number spidrone-number-02">
+        <img
+          src="images/Spidrone/Number 02.png"
+          alt="02"
+          class="spidrone-number-image"
+          draggable="false"
+        >
+
+        <a
+          href="#spidrone-anchor-03"
+          class="spidrone-number-down"
+          aria-label="Next section">
+        </a>
+
+        <a
+          href="#spidrone-anchor-01"
+          class="spidrone-number-up"
+          aria-label="Previous section">
+        </a>
+      </div>
+
+    </section>
+
+
+
+
+
+    <!-- ==================================================
+    SPIDRONE 02
+    1440 x 5000
+    =================================================== -->
+
+    <section class="spidrone-panel spidrone-panel-02">
+
+      <img
+        src="images/Spidrone/spidrone-02.jpg"
+        alt="SPIDRONE project page 02"
+        class="spidrone-image"
+        draggable="false"
+      >
+
+
+      <!-- VIDEO 2 -->
+
+      <video
+        class="spidrone-video spidrone-video-2"
+        autoplay
+        muted
+        loop
+        playsinline
+      >
+        <source src="images/Spidrone/video-2.mp4" type="video/mp4">
+      </video>
+
+
+
+      <!-- NUMBER 03 -->
+
+      <div id="spidrone-anchor-03" class="spidrone-anchor spidrone-anchor-03"></div>
+
+      <div class="spidrone-number spidrone-number-03">
+        <img
+          src="images/Spidrone/Number 03.png"
+          alt="03"
+          class="spidrone-number-image"
+          draggable="false"
+        >
+
+        <a
+          href="#spidrone-anchor-04"
+          class="spidrone-number-down"
+          aria-label="Next section">
+        </a>
+
+        <a
+          href="#spidrone-anchor-02"
+          class="spidrone-number-up"
+          aria-label="Previous section">
+        </a>
+      </div>
+
+
+
+      <!-- NUMBER 04 -->
+
+      <div id="spidrone-anchor-04" class="spidrone-anchor spidrone-anchor-04"></div>
+
+      <div class="spidrone-number spidrone-number-04">
+        <img
+          src="images/Spidrone/Number 04.png"
+          alt="04"
+          class="spidrone-number-image"
+          draggable="false"
+        >
+
+        <a
+          href="#spidrone-anchor-05"
+          class="spidrone-number-down"
+          aria-label="Next section">
+        </a>
+
+        <a
+          href="#spidrone-anchor-03"
+          class="spidrone-number-up"
+          aria-label="Previous section">
+        </a>
+      </div>
+
+
+
+      <!-- NUMBER 05 -->
+
+      <div id="spidrone-anchor-05" class="spidrone-anchor spidrone-anchor-05"></div>
+
+      <div class="spidrone-number spidrone-number-05">
+        <img
+          src="images/Spidrone/Number 05.png"
+          alt="05"
+          class="spidrone-number-image"
+          draggable="false"
+        >
+
+        <a
+          href="#spidrone-anchor-06"
+          class="spidrone-number-down"
+          aria-label="Next section">
+        </a>
+
+        <a
+          href="#spidrone-anchor-04"
+          class="spidrone-number-up"
+          aria-label="Previous section">
+        </a>
+      </div>
+
+
+
+      <!-- NUMBER 06 -->
+
+      <div id="spidrone-anchor-06" class="spidrone-anchor spidrone-anchor-06"></div>
+
+      <div class="spidrone-number spidrone-number-06">
+        <img
+          src="images/Spidrone/Number 06.png"
+          alt="06"
+          class="spidrone-number-image"
+          draggable="false"
+        >
+
+        <a
+          href="#spidrone-anchor-07"
+          class="spidrone-number-down"
+          aria-label="Next section">
+        </a>
+
+        <a
+          href="#spidrone-anchor-05"
+          class="spidrone-number-up"
+          aria-label="Previous section">
+        </a>
+      </div>
+
+
+
+      <!-- NUMBER 07 -->
+
+      <div id="spidrone-anchor-07" class="spidrone-anchor spidrone-anchor-07"></div>
+
+      <div class="spidrone-number spidrone-number-07">
+        <img
+          src="images/Spidrone/Number 07.png"
+          alt="07"
+          class="spidrone-number-image"
+          draggable="false"
+        >
+
+        <a
+          href="#spidrone-anchor-08"
+          class="spidrone-number-down"
+          aria-label="Next section">
+        </a>
+
+        <a
+          href="#spidrone-anchor-06"
+          class="spidrone-number-up"
+          aria-label="Previous section">
+        </a>
+      </div>
+
+
+
+      <!-- NUMBER 08 -->
+
+      <div id="spidrone-anchor-08" class="spidrone-anchor spidrone-anchor-08"></div>
+
+      <div class="spidrone-number spidrone-number-08">
+        <img
+          src="images/Spidrone/Number 08.png"
+          alt="08"
+          class="spidrone-number-image"
+          draggable="false"
+        >
+
+        <a
+          href="#spidrone-anchor-end"
+          class="spidrone-number-down"
+          aria-label="Next section">
+        </a>
+
+        <a
+          href="#spidrone-anchor-07"
+          class="spidrone-number-up"
+          aria-label="Previous section">
+        </a>
+      </div>
+
+    </section>
+
+
+
+
+
+    <!-- ==================================================
+    SPIDRONE 03
+    1440 x 2200
+    =================================================== -->
+
+    <section class="spidrone-panel spidrone-panel-03">
+
+      <img
+        src="images/Spidrone/spidrone-03.jpg"
+        alt="SPIDRONE project page 03"
+        class="spidrone-image"
+        draggable="false"
+      >
+
+      <div id="spidrone-anchor-end" class="spidrone-anchor spidrone-anchor-end"></div>
+
+    </section>
+
+
+  </main>
+
+
 
   <script>
     document.addEventListener('contextmenu', event => event.preventDefault());
   </script>
 
-</body>
 
+</body>
 </html>

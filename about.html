@@ -4,37 +4,72 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>About</title>
+
   <link rel="icon" type="image/png" href="images/0.Home/FAVICON.png">
-  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/about.css">
 </head>
 
 <body class="about-page">
 
-  <div class="about-topbar">
+  <!-- =========================
+  TOP BAR
+  ========================== -->
+
+  <div class="project-topbar">
+
     <img
       src="images/0.About/BAR.png"
       alt="Navigation"
-      class="about-topbar-image"
+      class="project-topbar-image"
       draggable="false"
     >
 
-    <a class="about-nav-home" href="home.html" aria-label="Home"></a>
-    <a class="about-nav-projects" href="projects.html" aria-label="Projects"></a>
-    <a class="about-nav-about" href="about.html" aria-label="About"></a>
+    <a
+      class="project-nav-home"
+      href="home.html"
+      aria-label="Home"
+    ></a>
+
+    <a
+      class="project-nav-projects"
+      href="projects.html"
+      aria-label="Projects"
+    ></a>
+
+    <a
+      class="project-nav-about"
+      href="about.html"
+      aria-label="About"
+    ></a>
+
   </div>
 
-  <div class="about-container">
+
+  <!-- =========================
+  ABOUT CONTENT
+  ========================== -->
+
+  <main class="about-container">
+
     <img
       src="images/0.About/ABOUT.jpg"
       alt="About"
       class="about-image"
       draggable="false"
     >
-  </div>
+
+  </main>
+
 
   <script>
-    document.addEventListener('contextmenu', event => event.preventDefault());
+    document.addEventListener(
+      "contextmenu",
+      event => event.preventDefault()
+    );
   </script>
 
 </body>

@@ -1,0 +1,191 @@
+/* =========================
+GLOBAL
+========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
+
+/* =========================
+COMMON IMAGES
+========================= */
+
+img {
+  display: block;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+
+/* =========================
+TOP BAR
+========================= */
+
+.project-topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.project-topbar-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+
+/* =========================
+TOP BAR NAVIGATION LINKS
+========================= */
+
+.project-nav-home,
+.project-nav-projects,
+.project-nav-about {
+  position: absolute;
+
+  top: 8%;
+  height: 86%;
+
+  display: block;
+
+  z-index: 1001;
+
+  cursor: pointer;
+}
+
+
+
+/* =========================
+HOME
+Figma:
+X = 760
+Y = 4
+W = 126
+H = 43
+BAR = 1440 x 50
+========================= */
+
+.project-nav-home {
+  left: 52.777778%;
+  width: 8.75%;
+}
+
+
+
+/* =========================
+PROJECTS
+Figma:
+X = 988
+Y = 4
+W = 160
+H = 43
+BAR = 1440 x 50
+========================= */
+
+.project-nav-projects {
+  left: 68.611111%;
+  width: 11.111111%;
+}
+
+
+
+/* =========================
+ABOUT
+Figma:
+X = 1250
+Y = 4
+W = 132
+H = 43
+BAR = 1440 x 50
+========================= */
+
+.project-nav-about {
+  left: 86.805556%;
+  width: 9.166667%;
+}
+
+
+/* =========================
+COMMON LATERAL NAVIGATION
+========================= */
+
+.project-lateral-navigation {
+  position: fixed;
+  top: 50%;
+  right: 1.2%;
+  transform: translateY(-50%);
+  z-index: 900;
+}
+
+.project-lateral-state {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.project-step-arrow {
+  width: 28px;
+  height: 28px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #555555;
+  text-decoration: none;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1;
+
+  cursor: pointer;
+
+  transition: opacity 0.2s ease;
+}
+
+.project-step-arrow:hover {
+  opacity: 0.55;
+}
+
+.project-step-arrow-disabled {
+  color: #c8c8c8;
+  cursor: default;
+}
+
+.project-step-number {
+  color: #555555;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  line-height: 1;
+  letter-spacing: 1px;
+}

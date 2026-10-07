@@ -1,0 +1,449 @@
+/* =========================
+CUBANIM PAGE
+========================= */
+
+.cubanim-page {
+  background-color: white;
+}
+
+
+
+/* =========================
+CUBANIM CONTAINER
+========================= */
+
+.cubanim-container {
+  position: relative;
+
+  width: 100%;
+
+  font-size: 0;
+  line-height: 0;
+}
+
+.cubanim-panel {
+  position: relative;
+
+  width: 100%;
+}
+
+
+
+/* =========================
+CUBANIM IMAGES
+========================= */
+
+.cubanim-image {
+  width: 100%;
+  height: auto;
+
+  display: block;
+
+  margin: 0;
+  padding: 0;
+
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+
+/* =========================
+CUBANIM TOP BAR
+========================= */
+
+.cubanim-topbar {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+
+  z-index: 1000;
+}
+
+.cubanim-topbar-image {
+  width: 100%;
+  height: auto;
+
+  display: block;
+
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+
+/* =========================
+TOP BAR NAVIGATION
+========================= */
+
+.cubanim-nav-home,
+.cubanim-nav-projects,
+.cubanim-nav-about {
+  position: absolute;
+
+  top: 8%;
+  height: 86%;
+
+  display: block;
+
+  z-index: 1001;
+
+  cursor: pointer;
+}
+
+
+
+/* HOME */
+
+.cubanim-nav-home {
+  left: 52.777778%;
+  width: 8.75%;
+}
+
+
+
+/* PROJECTS */
+
+.cubanim-nav-projects {
+  left: 68.611111%;
+  width: 11.111111%;
+}
+
+
+
+/* ABOUT */
+
+.cubanim-nav-about {
+  left: 86.805556%;
+  width: 9.166667%;
+}
+
+
+
+/* =========================
+CUBANIM VIDEOS
+========================= */
+
+.cubanim-video {
+  position: absolute;
+
+  display: block;
+
+  object-fit: cover;
+
+  background-color: black;
+
+  z-index: 2;
+}
+
+
+
+/* =========================
+VIDEO 1
+
+Frame: cubanim-02
+Frame starts globally: Y = 5000
+
+Global:
+X = 0
+Y = 7060
+
+Local:
+Y = 2060
+
+Dimensions:
+600 x 340
+
+Frame:
+1440 x 4880
+========================= */
+
+.cubanim-video-1 {
+  left: 0%;
+  top: 42.213115%;
+
+  width: 41.666667%;
+  height: 6.967213%;
+}
+
+
+
+/* =========================
+VIDEO 2
+
+Global:
+X = 600
+Y = 7060
+
+Local Y:
+2060
+
+Dimensions:
+600 x 340
+========================= */
+
+.cubanim-video-2 {
+  left: 41.666667%;
+  top: 42.213115%;
+
+  width: 41.666667%;
+  height: 6.967213%;
+}
+
+
+
+/* =========================
+VIDEO 3
+
+Global:
+X = 0
+Y = 8060
+
+Local:
+8060 - 5000 = 3060
+
+Dimensions:
+600 x 380
+========================= */
+
+.cubanim-video-3 {
+  left: 0%;
+  top: 62.704918%;
+
+  width: 41.666667%;
+  height: 7.786885%;
+}
+
+
+
+/* =========================
+VIDEO 4
+
+Global:
+X = 600
+Y = 8440
+
+Local:
+8440 - 5000 = 3440
+
+Dimensions:
+600 x 380
+========================= */
+
+.cubanim-video-4 {
+  left: 41.666667%;
+  top: 70.491803%;
+
+  width: 41.666667%;
+  height: 7.786885%;
+}
+
+
+
+/* =========================
+CUBANIM NUMBER NAVIGATION
+========================= */
+
+.cubanim-number {
+  position: absolute;
+
+  left: 83.333333%;
+
+  width: 16.666667%;
+  height: auto;
+
+  z-index: 20;
+}
+
+.cubanim-number-image {
+  width: 100%;
+  height: auto;
+
+  display: block;
+
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+
+/* =========================
+NUMBER CLICK AREAS
+========================= */
+
+.cubanim-number-down,
+.cubanim-number-up {
+  position: absolute;
+
+  left: 0;
+
+  width: 100%;
+
+  display: block;
+
+  cursor: pointer;
+
+  z-index: 21;
+}
+
+
+
+/* TOP ARROW */
+
+.cubanim-number-down {
+  top: 0;
+
+  height: 40%;
+}
+
+
+
+/* BOTTOM ARROW */
+
+.cubanim-number-up {
+  bottom: 0;
+
+  height: 40%;
+}
+
+.cubanim-number-disabled {
+  pointer-events: none;
+
+  cursor: default;
+}
+
+
+
+/* =========================
+SCROLL TARGETS
+========================= */
+
+.cubanim-anchor {
+  position: absolute;
+
+  left: 0;
+
+  width: 1px;
+  height: 1px;
+
+  pointer-events: none;
+
+  scroll-margin-top: clamp(120px, 11vw, 220px);
+}
+
+
+
+/* ==================================================
+CUBANIM NUMBER POSITION
+
+All:
+X = 1200
+W = 240
+H = 126
+
+Frame width = 1440
+================================================== */
+
+
+
+/* ==================================================
+CUBANIM 01
+
+1440 x 5000
+================================================== */
+
+
+/* =========================
+NUMBER 01
+
+Y = 1300
+
+1300 / 5000 = 26%
+========================= */
+
+.cubanim-number-01,
+.cubanim-anchor-01 {
+  top: 26%;
+}
+
+
+
+/* =========================
+NUMBER 02
+
+Y = 3930
+
+3930 / 5000 = 78.6%
+========================= */
+
+.cubanim-number-02,
+.cubanim-anchor-02 {
+  top: 78.6%;
+}
+
+
+
+/* ==================================================
+CUBANIM 02
+
+1440 x 4880
+
+Global start:
+Y = 5000
+================================================== */
+
+
+/* =========================
+NUMBER 03
+
+Global Y = 5080
+
+Local:
+5080 - 5000 = 80
+
+80 / 4880
+========================= */
+
+.cubanim-number-03,
+.cubanim-anchor-03 {
+  top: 1.639344%;
+}
+
+
+
+/* =========================
+NUMBER 04
+
+Global Y = 7060
+
+Local:
+2060
+
+2060 / 4880
+========================= */
+
+.cubanim-number-04,
+.cubanim-anchor-04 {
+  top: 42.213115%;
+}
+
+
+
+/* =========================
+NUMBER 05
+
+Global Y = 8060
+
+Local:
+3060
+
+3060 / 4880
+========================= */
+
+.cubanim-number-05,
+.cubanim-anchor-05 {
+  top: 62.704918%;
+}

@@ -1,0 +1,643 @@
+/* =========================
+REFORM PAGE
+========================= */
+
+.reform-page {
+  background-color: white;
+}
+
+
+
+/* =========================
+REFORM CONTAINER
+========================= */
+
+.reform-container {
+  position: relative;
+
+  width: 100%;
+
+  font-size: 0;
+  line-height: 0;
+}
+
+
+
+.reform-panel {
+  position: relative;
+
+  width: 100%;
+}
+
+
+
+/* =========================
+REFORM IMAGES
+========================= */
+
+.reform-image {
+  width: 100%;
+  height: auto;
+
+  display: block;
+
+  margin: 0;
+  padding: 0;
+
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+
+/* =========================
+REFORM TOP BAR
+========================= */
+
+.reform-topbar {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+
+  z-index: 1000;
+}
+
+
+
+.reform-topbar-image {
+  width: 100%;
+  height: auto;
+
+  display: block;
+
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+
+/* =========================
+TOP BAR NAVIGATION
+========================= */
+
+.reform-nav-home,
+.reform-nav-projects,
+.reform-nav-about {
+  position: absolute;
+
+  top: 8%;
+  height: 86%;
+
+  display: block;
+
+  z-index: 1001;
+
+  cursor: pointer;
+}
+
+
+
+/* HOME */
+
+.reform-nav-home {
+  left: 52.777778%;
+  width: 8.75%;
+}
+
+
+
+/* PROJECTS */
+
+.reform-nav-projects {
+  left: 68.611111%;
+  width: 11.111111%;
+}
+
+
+
+/* ABOUT */
+
+.reform-nav-about {
+  left: 86.805556%;
+  width: 9.166667%;
+}
+
+
+
+/* =========================
+REFORM VIDEOS
+========================= */
+
+.reform-video {
+  position: absolute;
+
+  display: block;
+
+  object-fit: cover;
+
+  background-color: black;
+
+  z-index: 2;
+}
+
+
+
+/* =========================
+VIDEO 1
+
+Global:
+X = 0
+Y = 1960
+
+Frame:
+reform-01
+1440 x 5000
+
+Video:
+1200 x 1200
+========================= */
+
+.reform-video-1 {
+  left: 0%;
+  top: 39.2%;
+
+  width: 83.333333%;
+  height: 24.02%;
+}
+
+
+
+/* =========================
+VIDEO 2
+
+Global Y = 11000
+
+reform-03 starts at:
+Y = 10000
+
+Local Y:
+11000 - 10000 = 1000
+
+Video:
+680 x 550
+========================= */
+
+.reform-video-2 {
+  left: 0%;
+  top: 20%;
+
+  width: 47.222222%;
+  height: 11%;
+}
+
+
+
+/* =========================
+VIDEO 3
+
+Global Y = 13750
+
+reform-03 starts:
+Y = 10000
+
+Local Y:
+3750
+
+Video:
+680 x 550
+========================= */
+
+.reform-video-3 {
+  left: 0%;
+  top: 75%;
+
+  width: 47.222222%;
+  height: 11%;
+}
+
+
+
+/* =========================
+VIDEO 4
+
+Global Y = 25070
+
+reform-06 starts:
+Y = 25000
+
+Local Y:
+70
+
+Frame:
+1440 x 2750
+
+Video:
+1200 x 680
+========================= */
+
+.reform-video-4 {
+  left: 0%;
+  top: 2.545455%;
+
+  width: 83.333333%;
+  height: 24.727273%;
+}
+
+
+
+/* ==================================================
+REFORM NUMBER NAVIGATION
+
+All Numbers:
+X = 1200
+W = 240
+H = 126
+
+Frame width:
+1440
+
+1200 / 1440 = 83.333333%
+240 / 1440 = 16.666667%
+================================================== */
+
+.reform-number {
+  position: absolute;
+
+  left: 83.333333%;
+
+  width: 16.666667%;
+  height: auto;
+
+  z-index: 20;
+}
+
+
+
+.reform-number-image {
+  width: 100%;
+  height: auto;
+
+  display: block;
+
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+
+/* =========================
+NUMBER CLICK AREAS
+========================= */
+
+.reform-number-down,
+.reform-number-up {
+  position: absolute;
+
+  left: 0;
+
+  width: 100%;
+
+  display: block;
+
+  cursor: pointer;
+
+  z-index: 21;
+}
+
+
+
+/* TOP ARROW = NEXT */
+
+.reform-number-down {
+  top: 0;
+
+  height: 40%;
+}
+
+
+
+/* BOTTOM ARROW = PREVIOUS */
+
+.reform-number-up {
+  bottom: 0;
+
+  height: 40%;
+}
+
+
+
+.reform-number-disabled {
+  pointer-events: none;
+
+  cursor: default;
+}
+
+
+
+/* =========================
+SCROLL TARGETS
+========================= */
+
+.reform-anchor {
+  position: absolute;
+
+  left: 0;
+
+  width: 1px;
+  height: 1px;
+
+  pointer-events: none;
+
+  scroll-margin-top: clamp(120px, 11vw, 220px);
+}
+
+
+
+/* ==================================================
+REFORM 01
+5000 px
+================================================== */
+
+
+/* =========================
+NUMBER 01-A
+
+Global / Local Y:
+1300
+========================= */
+
+.reform-number-01-a,
+.reform-anchor-01-a {
+  top: 26%;
+}
+
+
+
+/* =========================
+NUMBER 02-A
+
+Y = 3720
+========================= */
+
+.reform-number-02-a,
+.reform-anchor-02-a {
+  top: 74.4%;
+}
+
+
+
+/* ==================================================
+REFORM 02
+
+Global start:
+5000
+
+Height:
+5000
+================================================== */
+
+
+/* =========================
+NUMBER 03-A
+
+Global Y:
+6020
+
+Local:
+6020 - 5000 = 1020
+========================= */
+
+.reform-number-03-a,
+.reform-anchor-03-a {
+  top: 20.4%;
+}
+
+
+
+/* =========================
+NUMBER 01-B
+
+Global Y:
+8400
+
+Local:
+3400
+========================= */
+
+.reform-number-01-b,
+.reform-anchor-01-b {
+  top: 68%;
+}
+
+
+
+/* ==================================================
+REFORM 03
+
+Global start:
+10000
+
+Height:
+5000
+================================================== */
+
+
+/* =========================
+NUMBER 02-B
+
+Global Y interpreted as:
+11000
+
+Local:
+1000
+========================= */
+
+.reform-number-02-b,
+.reform-anchor-02-b {
+  top: 20%;
+}
+
+
+
+/* =========================
+NUMBER 03-B
+
+Global:
+11750
+
+Local:
+1750
+========================= */
+
+.reform-number-03-b,
+.reform-anchor-03-b {
+  top: 35%;
+}
+
+
+
+/* =========================
+NUMBER 04-B
+
+Global:
+13750
+
+Local:
+3750
+========================= */
+
+.reform-number-04-b,
+.reform-anchor-04-b {
+  top: 75%;
+}
+
+
+
+/* =========================
+NUMBER 05-B
+
+Global:
+14500
+
+Local:
+4500
+========================= */
+
+.reform-number-05-b,
+.reform-anchor-05-b {
+  top: 90%;
+}
+
+
+
+/* ==================================================
+REFORM 04
+
+Global start:
+15000
+================================================== */
+
+
+/* =========================
+NUMBER 06-B
+
+Global:
+15300
+
+Local:
+300
+========================= */
+
+.reform-number-06-b,
+.reform-anchor-06-b {
+  top: 6%;
+}
+
+
+
+/* =========================
+NUMBER 01-C
+
+Global:
+17530
+
+Local:
+2530
+========================= */
+
+.reform-number-01-c,
+.reform-anchor-01-c {
+  top: 50.6%;
+}
+
+
+
+/* =========================
+NUMBER 02-C
+
+Global:
+19680
+
+Local:
+4680
+========================= */
+
+.reform-number-02-c,
+.reform-anchor-02-c {
+  top: 93.6%;
+}
+
+
+
+/* ==================================================
+REFORM 05
+
+Global start:
+20000
+================================================== */
+
+
+/* =========================
+NUMBER 03-C
+
+Global:
+21230
+
+Local:
+1230
+========================= */
+
+.reform-number-03-c,
+.reform-anchor-03-c {
+  top: 24.6%;
+}
+
+
+
+/* =========================
+NUMBER 04-C
+
+Global:
+22610
+
+Local:
+2610
+========================= */
+
+.reform-number-04-c,
+.reform-anchor-04-c {
+  top: 52.2%;
+}
+
+
+
+/* ==================================================
+REFORM 06
+
+Global start:
+25000
+
+Height:
+2750
+================================================== */
+
+
+/* =========================
+NUMBER 01-D
+
+Global:
+25070
+
+Local:
+70
+
+70 / 2750
+========================= */
+
+.reform-number-01-d,
+.reform-anchor-01-d {
+  top: 2.545455%;
+}

@@ -4,27 +4,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Projects</title>
+
   <link rel="icon" type="image/png" href="images/0.Home/FAVICON.png">
-  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/projects.css">
 </head>
 
 <body class="projects-page">
 
-  <div class="projects-topbar">
+
+  <!-- =========================
+  TOP BAR
+  ========================== -->
+
+  <div class="project-topbar">
+
     <img
       src="images/0.Projects/BAR.png"
       alt="Navigation"
-      class="projects-topbar-image"
+      class="project-topbar-image"
       draggable="false"
     >
 
-    <a class="projects-nav-home" href="home.html" aria-label="Home"></a>
-    <a class="projects-nav-projects" href="projects.html" aria-label="Projects"></a>
-    <a class="projects-nav-about" href="about.html" aria-label="About"></a>
+    <a
+      class="project-nav-home"
+      href="home.html"
+      aria-label="Home">
+    </a>
+
+    <a
+      class="project-nav-projects"
+      href="projects.html"
+      aria-label="Projects">
+    </a>
+
+    <a
+      class="project-nav-about"
+      href="about.html"
+      aria-label="About">
+    </a>
+
   </div>
 
-  <div class="projects-container">
+
+
+  <!-- =========================
+  PROJECTS CONTENT
+  ========================== -->
+
+  <main class="projects-container">
+
     <img
       src="images/0.Projects/PROJECTS.jpg"
       alt="Projects"
@@ -32,18 +64,130 @@
       draggable="false"
     >
 
-    <a class="project-link project-reform" href="reform.html" aria-label="RE:FORM"></a>
-    <a class="project-link project-hyde" href="hyde.html" aria-label="Hyde"></a>
-    <a class="project-link project-spidrone" href="spidrone.html" aria-label="Spidrone"></a>
-    <a class="project-link project-cubanim" href="cubanim.html" aria-label="Cubanim"></a>
-    <a class="project-link project-perseverance" href="perseverance.html" aria-label="Perseverance"></a>
-    <a class="project-link project-transports" href="transports.html" aria-label="Transports"></a>
-    <a class="project-link project-sketch" href="sketch.html" aria-label="Sketch"></a>
-  </div>
+
+
+    <!-- =========================
+    01 - TAB
+    X = 40
+    Y = 280
+    ========================== -->
+
+    <a
+      class="projects-link projects-tab"
+      href="tab.html"
+      aria-label="Open TAB project">
+    </a>
+
+
+
+    <!-- =========================
+    02 - HYDE
+    X = 495
+    Y = 280
+    ========================== -->
+
+    <a
+      class="projects-link projects-hyde"
+      href="hyde.html"
+      aria-label="Open HYDE project">
+    </a>
+
+
+
+    <!-- =========================
+    03 - REFORM
+    X = 950
+    Y = 280
+    ========================== -->
+
+    <a
+      class="projects-link projects-reform"
+      href="reform.html"
+      aria-label="Open REFORM project">
+    </a>
+
+
+
+    <!-- =========================
+    04 - SPIDRONE
+    X = 40
+    Y = 938
+    ========================== -->
+
+    <a
+      class="projects-link projects-spidrone"
+      href="spidrone.html"
+      aria-label="Open SPIDRONE project">
+    </a>
+
+
+
+    <!-- =========================
+    05 - CUBANIM
+    X = 495
+    Y = 938
+    ========================== -->
+
+    <a
+      class="projects-link projects-cubanim"
+      href="cubanim.html"
+      aria-label="Open CUBANIM project">
+    </a>
+
+
+
+    <!-- =========================
+    06 - PERSEVERANCE
+    X = 950
+    Y = 938
+    ========================== -->
+
+    <a
+      class="projects-link projects-perseverance"
+      href="perseverance.html"
+      aria-label="Open PERSEVERANCE project">
+    </a>
+
+
+
+    <!-- =========================
+    07 - TRANSPORTS
+    X = 40
+    Y = 1596
+    ========================== -->
+
+    <a
+      class="projects-link projects-transports"
+      href="transports.html"
+      aria-label="Open TRANSPORTS project">
+    </a>
+
+
+
+    <!-- =========================
+    08 - SKETCH
+    X = 495
+    Y = 1596
+    ========================== -->
+
+    <a
+      class="projects-link projects-sketch"
+      href="sketch.html"
+      aria-label="Open SKETCH project">
+    </a>
+
+
+  </main>
+
+
 
   <script>
-    document.addEventListener('contextmenu', event => event.preventDefault());
+    document.addEventListener(
+      "contextmenu",
+      event => event.preventDefault()
+    );
   </script>
+
 
 </body>
 

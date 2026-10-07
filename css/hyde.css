@@ -1,0 +1,373 @@
+/* =========================
+HYDE PAGE
+========================= */
+
+.hyde-page {
+  background-color: white;
+}
+
+
+
+/* =========================
+HYDE CONTAINER
+========================= */
+
+.hyde-container {
+  position: relative;
+  width: 100%;
+  font-size: 0;
+  line-height: 0;
+}
+
+.hyde-panel {
+  position: relative;
+  width: 100%;
+}
+
+
+
+/* =========================
+HYDE IMAGE
+========================= */
+
+.hyde-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+
+/* =========================
+HYDE TOP BAR
+========================= */
+
+.hyde-topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.hyde-topbar-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+
+/* =========================
+TOP BAR NAVIGATION
+========================= */
+
+.hyde-nav-home,
+.hyde-nav-projects,
+.hyde-nav-about {
+  position: absolute;
+  top: 8%;
+  height: 86%;
+  display: block;
+  z-index: 1001;
+  cursor: pointer;
+}
+
+/* HOME */
+.hyde-nav-home {
+  left: 52.777778%;
+  width: 8.75%;
+}
+
+/* PROJECTS */
+.hyde-nav-projects {
+  left: 68.611111%;
+  width: 11.111111%;
+}
+
+/* ABOUT */
+.hyde-nav-about {
+  left: 86.805556%;
+  width: 9.166667%;
+}
+
+
+
+/* =========================
+HYDE VIDEOS
+========================= */
+
+.hyde-video {
+  position: absolute;
+  display: block;
+  background-color: black;
+  object-fit: cover;
+  z-index: 2;
+}
+
+
+
+/* =========================
+VIDEO 1
+Frame: hyde-01
+X = 0
+Y = 3320
+W = 1200
+H = 660
+Frame = 1440 x 5000
+========================= */
+
+.hyde-video-1 {
+  left: 0%;
+  top: 66.4%;
+  width: 83.333333%;
+  height: 13.2%;
+}
+
+
+
+/* =========================
+VIDEO 2
+Frame: hyde-01
+X = 0
+Y = 3980
+W = 1200
+H = 660
+Frame = 1440 x 5000
+========================= */
+
+.hyde-video-2 {
+  left: 0%;
+  top: 79.6%;
+  width: 83.333333%;
+  height: 13.2%;
+}
+
+
+
+/* =========================
+VIDEO 3
+Frame: hyde-02
+Global Y = 8520
+hyde-02 starts at 5000
+Local Y = 3520
+W = 1200
+H = 540
+Frame = 1440 x 4700
+========================= */
+
+.hyde-video-3 {
+  left: 0%;
+  top: 74.893617%;
+  width: 83.333333%;
+  height: 11.489362%;
+}
+
+
+
+/* =========================
+VIDEO 4
+Frame: hyde-02
+Global Y = 9060
+hyde-02 starts at 5000
+Local Y = 4060
+X = 436
+W = 328
+H = 580
+Frame = 1440 x 4700
+========================= */
+
+.hyde-video-4 {
+  left: 30.277778%;
+  top: 86.382979%;
+  width: 22.777778%;
+  height: 12.340426%;
+}
+
+
+
+/* =========================
+VIDEO 5
+Frame: hyde-03
+Global Y = 9840
+hyde-03 starts at 9700
+Local Y = 140
+X = 600
+W = 600
+H = 700
+Frame = 1440 x 5980
+========================= */
+
+.hyde-video-5 {
+  left: 41.666667%;
+  top: 2.341137%;
+  width: 41.666667%;
+  height: 11.705686%;
+}
+
+
+
+/* =========================
+HYDE NUMBER NAVIGATION
+========================= */
+
+.hyde-number {
+  position: absolute;
+  left: 83.333333%;
+  width: 16.666667%;
+  height: auto;
+  z-index: 20;
+}
+
+.hyde-number-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+
+/* =========================
+HYDE NUMBER CLICK AREAS
+========================= */
+
+.hyde-number-down,
+.hyde-number-up {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  z-index: 21;
+}
+
+.hyde-number-down {
+  top: 0;
+  height: 40%;
+}
+
+.hyde-number-up {
+  bottom: 0;
+  height: 40%;
+}
+
+.hyde-number-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+
+
+/* =========================
+HYDE SCROLL TARGETS
+========================= */
+
+.hyde-anchor {
+  position: absolute;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  pointer-events: none;
+  scroll-margin-top: clamp(120px, 11vw, 220px);
+}
+
+
+
+/* ==================================================
+HYDE-01
+1440 x 5000
+================================================== */
+
+/* NUMBER 01
+Y = 1300 */
+.hyde-number-01,
+.hyde-anchor-01 {
+  top: 26%;
+}
+
+/* NUMBER 02
+Y = 4840 */
+.hyde-number-02,
+.hyde-anchor-02 {
+  top: 96.8%;
+}
+
+
+
+/* ==================================================
+HYDE-02
+1440 x 4700
+Global start = 5000
+================================================== */
+
+/* NUMBER 03
+Global Y = 6620
+Local Y = 1620 */
+.hyde-number-03,
+.hyde-anchor-03 {
+  top: 34.468085%;
+}
+
+/* NUMBER 04
+Global Y = 8520
+Local Y = 3520 */
+.hyde-number-04,
+.hyde-anchor-04 {
+  top: 74.893617%;
+}
+
+
+
+/* ==================================================
+HYDE-03
+1440 x 5980
+Global start = 9700
+================================================== */
+
+/* NUMBER 05
+Global Y = 9840
+Local Y = 140 */
+.hyde-number-05,
+.hyde-anchor-05 {
+  top: 2.341137%;
+}
+
+/* NUMBER 06
+Global Y = 10740
+Local Y = 1040 */
+.hyde-number-06,
+.hyde-anchor-06 {
+  top: 17.391304%;
+}
+
+/* NUMBER 07
+Global Y = 11440
+Local Y = 1740 */
+.hyde-number-07,
+.hyde-anchor-07 {
+  top: 29.096990%;
+}
+
+/* NUMBER 08
+Global Y = 12340
+Local Y = 2640 */
+.hyde-number-08,
+.hyde-anchor-08 {
+  top: 44.147157%;
+}
+
+/* NUMBER 09
+Global Y = 13140
+Local Y = 3440 */
+.hyde-number-09,
+.hyde-anchor-09 {
+  top: 57.525084%;
+}

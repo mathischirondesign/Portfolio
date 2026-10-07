@@ -1,0 +1,350 @@
+/* =========================
+SKETCH PAGE
+========================= */
+
+.sketch-page {
+  background-color: white;
+}
+
+
+
+/* =========================
+SKETCH CONTAINER
+========================= */
+
+.sketch-container {
+  position: relative;
+
+  width: 100%;
+
+  font-size: 0;
+  line-height: 0;
+}
+
+
+
+.sketch-panel {
+  position: relative;
+
+  width: 100%;
+}
+
+
+
+/* =========================
+SKETCH IMAGES
+========================= */
+
+.sketch-image {
+  width: 100%;
+  height: auto;
+
+  display: block;
+
+  margin: 0;
+  padding: 0;
+
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+
+/* =========================
+SKETCH TOP BAR
+========================= */
+
+.sketch-topbar {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+
+  z-index: 1000;
+}
+
+
+
+.sketch-topbar-image {
+  width: 100%;
+  height: auto;
+
+  display: block;
+
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+
+/* =========================
+TOP BAR NAVIGATION
+========================= */
+
+.sketch-nav-home,
+.sketch-nav-projects,
+.sketch-nav-about {
+  position: absolute;
+
+  top: 8%;
+  height: 86%;
+
+  display: block;
+
+  z-index: 1001;
+
+  cursor: pointer;
+}
+
+
+
+/* HOME */
+
+.sketch-nav-home {
+  left: 52.777778%;
+  width: 8.75%;
+}
+
+
+
+/* PROJECTS */
+
+.sketch-nav-projects {
+  left: 68.611111%;
+  width: 11.111111%;
+}
+
+
+
+/* ABOUT */
+
+.sketch-nav-about {
+  left: 86.805556%;
+  width: 9.166667%;
+}
+
+
+
+/* =========================
+NUMBER NAVIGATION
+========================= */
+
+.sketch-number {
+  position: absolute;
+
+  left: 83.333333%;
+
+  width: 16.666667%;
+  height: auto;
+
+  z-index: 20;
+}
+
+
+
+.sketch-number-image {
+  width: 100%;
+  height: auto;
+
+  display: block;
+
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+
+/* =========================
+NUMBER CLICK AREAS
+========================= */
+
+.sketch-number-down,
+.sketch-number-up {
+  position: absolute;
+
+  left: 0;
+
+  width: 100%;
+
+  display: block;
+
+  cursor: pointer;
+
+  z-index: 21;
+}
+
+
+
+.sketch-number-down {
+  top: 0;
+
+  height: 40%;
+}
+
+
+
+.sketch-number-up {
+  bottom: 0;
+
+  height: 40%;
+}
+
+
+
+.sketch-number-disabled {
+  pointer-events: none;
+
+  cursor: default;
+}
+
+
+
+/* =========================
+SCROLL TARGETS
+========================= */
+
+.sketch-anchor {
+  position: absolute;
+
+  left: 0;
+
+  width: 1px;
+  height: 1px;
+
+  pointer-events: none;
+
+  scroll-margin-top: clamp(120px, 11vw, 220px);
+}
+
+
+
+/* ==================================================
+NUMBER DIMENSIONS
+
+X = 1200
+W = 240
+H = 126
+
+1200 / 1440 = 83.333333%
+240 / 1440 = 16.666667%
+================================================== */
+
+
+
+/* ==================================================
+SKETCH 01
+
+Frame:
+1440 x 5000
+
+Global:
+0 → 5000
+================================================== */
+
+
+/* =========================
+NUMBER 01
+
+Y = 1300
+
+1300 / 5000
+========================= */
+
+.sketch-number-01,
+.sketch-anchor-01 {
+  top: 26%;
+}
+
+
+
+/* =========================
+NUMBER 02
+
+Y = 2500
+
+2500 / 5000
+========================= */
+
+.sketch-number-02,
+.sketch-anchor-02 {
+  top: 50%;
+}
+
+
+
+/* =========================
+NUMBER 03
+
+Y = 3500
+
+3500 / 5000
+========================= */
+
+.sketch-number-03,
+.sketch-anchor-03 {
+  top: 70%;
+}
+
+
+
+/* =========================
+NUMBER 04
+
+Y = 4500
+
+4500 / 5000
+========================= */
+
+.sketch-number-04,
+.sketch-anchor-04 {
+  top: 90%;
+}
+
+
+
+/* ==================================================
+SKETCH 02
+
+Frame:
+1440 x 4200
+
+Global start:
+Y = 5000
+================================================== */
+
+
+/* =========================
+NUMBER 05
+
+Global Y = 6900
+
+Local:
+6900 - 5000 = 1900
+
+1900 / 4200
+========================= */
+
+.sketch-number-05,
+.sketch-anchor-05 {
+  top: 45.238095%;
+}
+
+
+
+/* =========================
+NUMBER 06
+
+Global Y = 7900
+
+Local:
+7900 - 5000 = 2900
+
+2900 / 4200
+========================= */
+
+.sketch-number-06,
+.sketch-anchor-06 {
+  top: 69.047619%;
+}

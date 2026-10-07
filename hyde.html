@@ -4,54 +4,453 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>HYDE</title>
+
   <link rel="icon" type="image/png" href="images/0.Home/FAVICON.png">
-  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/hyde.css">
 </head>
 
 <body class="hyde-page">
 
+
+  <!-- =========================
+  TOP BAR
+  ========================== -->
+
   <div class="hyde-topbar">
-    <img src="images/02.Hyde/BAR.png" alt="Navigation" class="hyde-topbar-image" draggable="false">
 
-    <a class="hyde-nav-home" href="home.html" aria-label="Home"></a>
-    <a class="hyde-nav-projects" href="projects.html" aria-label="Projects"></a>
-    <a class="hyde-nav-about" href="about.html" aria-label="About"></a>
-  </div>
+    <img
+      src="images/Hyde/BAR.png"
+      alt="Navigation"
+      class="hyde-topbar-image"
+      draggable="false"
+    >
 
-  <div class="hyde-container">
+    <a
+      class="hyde-nav-home"
+      href="home.html"
+      aria-label="Home">
+    </a>
 
-    <img src="images/02.Hyde/hyde-01.jpg" alt="HYDE Project part 1" class="hyde-image" draggable="false">
-    <img src="images/02.Hyde/hyde-02.jpg" alt="HYDE Project part 2" class="hyde-image" draggable="false">
-    <img src="images/02.Hyde/hyde-03.jpg" alt="HYDE Project part 3" class="hyde-image" draggable="false">
-    <img src="images/02.Hyde/hyde-04.jpg" alt="HYDE Project part 4" class="hyde-image" draggable="false">
+    <a
+      class="hyde-nav-projects"
+      href="projects.html"
+      aria-label="Projects">
+    </a>
 
-    <video class="hyde-video hyde-video-1" autoplay muted loop playsinline>
-      <source src="images/02.Hyde/video-1.mp4" type="video/mp4">
-    </video>
-
-    <video class="hyde-video hyde-video-2" autoplay muted loop playsinline>
-      <source src="images/02.Hyde/video-2.mp4" type="video/mp4">
-    </video>
-
-    <video class="hyde-video hyde-video-3" autoplay muted loop playsinline>
-      <source src="images/02.Hyde/video-3.mp4" type="video/mp4">
-    </video>
-
-    <video class="hyde-video hyde-video-4" autoplay muted loop playsinline>
-      <source src="images/02.Hyde/video-4.mp4" type="video/mp4">
-    </video>
-
-    <video class="hyde-video hyde-video-5" autoplay muted loop playsinline>
-      <source src="images/02.Hyde/video-5.mp4" type="video/mp4">
-    </video>
+    <a
+      class="hyde-nav-about"
+      href="about.html"
+      aria-label="About">
+    </a>
 
   </div>
+
+
+
+  <!-- =========================
+  HYDE CONTAINER
+  ========================== -->
+
+  <main class="hyde-container">
+
+
+
+    <!-- ==================================================
+    HYDE 01
+    1440 x 5000
+    =================================================== -->
+
+    <section class="hyde-panel hyde-panel-01">
+
+      <img
+        src="images/Hyde/hyde-01.jpg"
+        alt="HYDE project page 01"
+        class="hyde-image"
+        draggable="false"
+      >
+
+
+      <!-- VIDEO 1 -->
+
+      <video
+        class="hyde-video hyde-video-1 hyde-sync-video"
+        autoplay
+        muted
+        loop
+        playsinline
+      >
+        <source src="images/Hyde/video-1.mp4" type="video/mp4">
+      </video>
+
+
+      <!-- VIDEO 2 -->
+
+      <video
+        class="hyde-video hyde-video-2 hyde-sync-video"
+        autoplay
+        muted
+        loop
+        playsinline
+      >
+        <source src="images/Hyde/video-2.mp4" type="video/mp4">
+      </video>
+
+
+
+      <!-- NUMBER 01 -->
+
+      <div id="hyde-anchor-01" class="hyde-anchor hyde-anchor-01"></div>
+
+      <div class="hyde-number hyde-number-01">
+        <img
+          src="images/Hyde/Number 01.png"
+          alt="01"
+          class="hyde-number-image"
+          draggable="false"
+        >
+
+        <a
+          href="#hyde-anchor-02"
+          class="hyde-number-down"
+          aria-label="Next section">
+        </a>
+
+        <span class="hyde-number-up hyde-number-disabled"></span>
+      </div>
+
+
+
+      <!-- NUMBER 02 -->
+
+      <div id="hyde-anchor-02" class="hyde-anchor hyde-anchor-02"></div>
+
+      <div class="hyde-number hyde-number-02">
+        <img
+          src="images/Hyde/Number 02.png"
+          alt="02"
+          class="hyde-number-image"
+          draggable="false"
+        >
+
+        <a
+          href="#hyde-anchor-03"
+          class="hyde-number-down"
+          aria-label="Next section">
+        </a>
+
+        <a
+          href="#hyde-anchor-01"
+          class="hyde-number-up"
+          aria-label="Previous section">
+        </a>
+      </div>
+
+    </section>
+
+
+
+
+
+    <!-- ==================================================
+    HYDE 02
+    1440 x 4700
+    =================================================== -->
+
+    <section class="hyde-panel hyde-panel-02">
+
+      <img
+        src="images/Hyde/hyde-02.jpg"
+        alt="HYDE project page 02"
+        class="hyde-image"
+        draggable="false"
+      >
+
+
+      <!-- VIDEO 3 -->
+
+      <video
+        class="hyde-video hyde-video-3"
+        autoplay
+        muted
+        loop
+        playsinline
+      >
+        <source src="images/Hyde/video-3.mp4" type="video/mp4">
+      </video>
+
+
+      <!-- VIDEO 4 -->
+
+      <video
+        class="hyde-video hyde-video-4"
+        autoplay
+        muted
+        loop
+        playsinline
+      >
+        <source src="images/Hyde/video-4.mp4" type="video/mp4">
+      </video>
+
+
+
+      <!-- NUMBER 03 -->
+
+      <div id="hyde-anchor-03" class="hyde-anchor hyde-anchor-03"></div>
+
+      <div class="hyde-number hyde-number-03">
+        <img
+          src="images/Hyde/Number 03.png"
+          alt="03"
+          class="hyde-number-image"
+          draggable="false"
+        >
+
+        <a
+          href="#hyde-anchor-04"
+          class="hyde-number-down"
+          aria-label="Next section">
+        </a>
+
+        <a
+          href="#hyde-anchor-02"
+          class="hyde-number-up"
+          aria-label="Previous section">
+        </a>
+      </div>
+
+
+
+      <!-- NUMBER 04 -->
+
+      <div id="hyde-anchor-04" class="hyde-anchor hyde-anchor-04"></div>
+
+      <div class="hyde-number hyde-number-04">
+        <img
+          src="images/Hyde/Number 04.png"
+          alt="04"
+          class="hyde-number-image"
+          draggable="false"
+        >
+
+        <a
+          href="#hyde-anchor-05"
+          class="hyde-number-down"
+          aria-label="Next section">
+        </a>
+
+        <a
+          href="#hyde-anchor-03"
+          class="hyde-number-up"
+          aria-label="Previous section">
+        </a>
+      </div>
+
+    </section>
+
+
+
+
+
+    <!-- ==================================================
+    HYDE 03
+    1440 x 5980
+    =================================================== -->
+
+    <section class="hyde-panel hyde-panel-03">
+
+      <img
+        src="images/Hyde/hyde-03.jpg"
+        alt="HYDE project page 03"
+        class="hyde-image"
+        draggable="false"
+      >
+
+
+      <!-- VIDEO 5 -->
+
+      <video
+        class="hyde-video hyde-video-5"
+        autoplay
+        muted
+        loop
+        playsinline
+      >
+        <source src="images/Hyde/video-5.mp4" type="video/mp4">
+      </video>
+
+
+
+      <!-- NUMBER 05 -->
+
+      <div id="hyde-anchor-05" class="hyde-anchor hyde-anchor-05"></div>
+
+      <div class="hyde-number hyde-number-05">
+        <img
+          src="images/Hyde/Number 05.png"
+          alt="05"
+          class="hyde-number-image"
+          draggable="false"
+        >
+
+        <a
+          href="#hyde-anchor-06"
+          class="hyde-number-down"
+          aria-label="Next section">
+        </a>
+
+        <a
+          href="#hyde-anchor-04"
+          class="hyde-number-up"
+          aria-label="Previous section">
+        </a>
+      </div>
+
+
+
+      <!-- NUMBER 06 -->
+
+      <div id="hyde-anchor-06" class="hyde-anchor hyde-anchor-06"></div>
+
+      <div class="hyde-number hyde-number-06">
+        <img
+          src="images/Hyde/Number 06.png"
+          alt="06"
+          class="hyde-number-image"
+          draggable="false"
+        >
+
+        <a
+          href="#hyde-anchor-07"
+          class="hyde-number-down"
+          aria-label="Next section">
+        </a>
+
+        <a
+          href="#hyde-anchor-05"
+          class="hyde-number-up"
+          aria-label="Previous section">
+        </a>
+      </div>
+
+
+
+      <!-- NUMBER 07 -->
+
+      <div id="hyde-anchor-07" class="hyde-anchor hyde-anchor-07"></div>
+
+      <div class="hyde-number hyde-number-07">
+        <img
+          src="images/Hyde/Number 07.png"
+          alt="07"
+          class="hyde-number-image"
+          draggable="false"
+        >
+
+        <a
+          href="#hyde-anchor-08"
+          class="hyde-number-down"
+          aria-label="Next section">
+        </a>
+
+        <a
+          href="#hyde-anchor-06"
+          class="hyde-number-up"
+          aria-label="Previous section">
+        </a>
+      </div>
+
+
+
+      <!-- NUMBER 08 -->
+
+      <div id="hyde-anchor-08" class="hyde-anchor hyde-anchor-08"></div>
+
+      <div class="hyde-number hyde-number-08">
+        <img
+          src="images/Hyde/Number 08.png"
+          alt="08"
+          class="hyde-number-image"
+          draggable="false"
+        >
+
+        <a
+          href="#hyde-anchor-09"
+          class="hyde-number-down"
+          aria-label="Next section">
+        </a>
+
+        <a
+          href="#hyde-anchor-07"
+          class="hyde-number-up"
+          aria-label="Previous section">
+        </a>
+      </div>
+
+
+
+      <!-- NUMBER 09 -->
+
+      <div id="hyde-anchor-09" class="hyde-anchor hyde-anchor-09"></div>
+
+      <div class="hyde-number hyde-number-09">
+        <img
+          src="images/Hyde/Number 09.png"
+          alt="09"
+          class="hyde-number-image"
+          draggable="false"
+        >
+
+        <span class="hyde-number-down hyde-number-disabled"></span>
+
+        <a
+          href="#hyde-anchor-08"
+          class="hyde-number-up"
+          aria-label="Previous section">
+        </a>
+      </div>
+
+    </section>
+
+
+  </main>
+
+
 
   <script>
     document.addEventListener('contextmenu', event => event.preventDefault());
+
+    window.addEventListener('load', () => {
+      const syncedVideos = Array.from(document.querySelectorAll('.hyde-sync-video'));
+
+      const waitForReady = (video) => {
+        return new Promise((resolve) => {
+          if (video.readyState >= 3) {
+            resolve();
+          } else {
+            video.addEventListener('canplay', resolve, { once: true });
+          }
+        });
+      };
+
+      Promise.all(syncedVideos.map(waitForReady)).then(() => {
+        syncedVideos.forEach((video) => {
+          video.pause();
+          video.currentTime = 0;
+        });
+
+        syncedVideos.forEach((video) => {
+          const playPromise = video.play();
+          if (playPromise !== undefined) {
+            playPromise.catch(() => {});
+          }
+        });
+      });
+    });
   </script>
 
 </body>
-
 </html>
