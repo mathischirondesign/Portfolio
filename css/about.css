@@ -14,8 +14,12 @@ ABOUT PAGE
 }
 
 
+
 /* =========================
 ABOUT CONTAINER
+
+FIGMA:
+1440 x 4890
 ========================= */
 
 .about-container {
@@ -29,6 +33,7 @@ ABOUT CONTAINER
   font-size: 0;
   line-height: 0;
 }
+
 
 
 /* =========================
@@ -46,6 +51,137 @@ ABOUT IMAGE
 
   user-select: none;
   -webkit-user-select: none;
-
   -webkit-user-drag: none;
+}
+
+
+
+/* =========================
+CONTACT CARDS
+========================= */
+
+.about-contact {
+  position: absolute;
+
+  display: block;
+
+  z-index: 10;
+
+  cursor: pointer;
+
+  transition: opacity 0.2s ease;
+}
+
+
+
+.about-contact img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: fill;
+
+  margin: 0;
+  padding: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+
+.about-contact:hover {
+  opacity: 0.82;
+}
+
+
+
+/* =========================
+MAIL
+
+FRAME:
+1440 x 4890
+
+X = 80
+Y = 940
+W = 428
+H = 120
+========================= */
+
+.about-mail {
+  left: 5.555556%;
+  top: 19.222904%;
+
+  width: 29.722222%;
+  height: 2.453988%;
+}
+
+
+
+/* =========================
+PHONE
+
+X = 528
+Y = 940
+W = 270
+H = 120
+========================= */
+
+.about-phone {
+  left: 36.666667%;
+  top: 19.222904%;
+
+  width: 18.75%;
+  height: 2.453988%;
+}
+
+
+
+/* =========================
+LINKEDIN
+
+X = 818
+Y = 940
+W = 240
+H = 120
+========================= */
+
+.about-linkedin {
+  left: 56.805556%;
+  top: 19.222904%;
+
+  width: 16.666667%;
+  height: 2.453988%;
+}
+
+
+
+/* =========================
+INSTAGRAM
+
+X = 1078
+Y = 940
+W = 282
+H = 120
+========================= */
+
+.about-instagram {
+  left: 74.861111%;
+  top: 19.222904%;
+
+  width: 19.583333%;
+  height: 2.453988%;
+}
+
+
+
+/* =========================
+ACCESSIBILITY
+========================= */
+
+.about-contact:focus-visible {
+  outline: 2px solid black;
+  outline-offset: 3px;
 }
