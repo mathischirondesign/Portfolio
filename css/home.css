@@ -56,12 +56,14 @@ HOME IMAGES
 /* =========================
 HOME PROJECT LINKS
 
-All project cards:
+ALL PROJECT CARDS:
+
 X = 0
 W = 1440
 H = 450
 
-450 / 1440 = 31.25vw
+450 / 1440
+= 31.25vw
 ========================= */
 
 .home-project-link {
@@ -84,7 +86,7 @@ H = 450
 
 
 /* =========================
-01 - TAB
+01 - CAVALLI
 
 FIGMA:
 X = 0
@@ -93,14 +95,14 @@ W = 1440
 H = 450
 ========================= */
 
-.home-project-tab {
+.home-project-cavalli {
   top: 52.083333vw;
 }
 
 
 
 /* =========================
-02 - HYDE
+02 - TAB
 
 FIGMA:
 X = 0
@@ -109,14 +111,14 @@ W = 1440
 H = 450
 ========================= */
 
-.home-project-hyde {
+.home-project-tab {
   top: 83.333333vw;
 }
 
 
 
 /* =========================
-03 - REFORM
+03 - HYDE
 
 FIGMA:
 X = 0
@@ -125,14 +127,14 @@ W = 1440
 H = 450
 ========================= */
 
-.home-project-reform {
+.home-project-hyde {
   top: 114.583333vw;
 }
 
 
 
 /* =========================
-04 - SPIDRONE
+04 - REFORM
 
 FIGMA:
 X = 0
@@ -141,14 +143,14 @@ W = 1440
 H = 450
 ========================= */
 
-.home-project-spidrone {
+.home-project-reform {
   top: 145.833333vw;
 }
 
 
 
 /* =========================
-05 - CUBANIM
+05 - SPIDRONE
 
 FIGMA:
 X = 0
@@ -157,14 +159,14 @@ W = 1440
 H = 450
 ========================= */
 
-.home-project-cubanim {
+.home-project-spidrone {
   top: 177.083333vw;
 }
 
 
 
 /* =========================
-06 - PERSEVERANCE
+06 - CUBANIM
 
 FIGMA:
 X = 0
@@ -173,14 +175,14 @@ W = 1440
 H = 450
 ========================= */
 
-.home-project-perseverance {
+.home-project-cubanim {
   top: 208.333333vw;
 }
 
 
 
 /* =========================
-07 - TRANSPORTS
+07 - PERSEVERANCE
 
 FIGMA:
 X = 0
@@ -189,14 +191,14 @@ W = 1440
 H = 450
 ========================= */
 
-.home-project-transports {
+.home-project-perseverance {
   top: 239.583333vw;
 }
 
 
 
 /* =========================
-08 - SKETCH
+08 - TRANSPORTS
 
 FIGMA:
 X = 0
@@ -205,8 +207,24 @@ W = 1440
 H = 450
 ========================= */
 
-.home-project-sketch {
+.home-project-transports {
   top: 270.833333vw;
+}
+
+
+
+/* =========================
+09 - SKETCH
+
+FIGMA:
+X = 0
+Y = 4350
+W = 1440
+H = 450
+========================= */
+
+.home-project-sketch {
+  top: 302.083333vw;
 }
 
 

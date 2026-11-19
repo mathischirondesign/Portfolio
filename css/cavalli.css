@@ -1,0 +1,395 @@
+/* =========================
+CAVALLI PAGE
+========================= */
+
+.cavalli-page {
+  background-color: white;
+}
+
+
+
+/* =========================
+CAVALLI CONTAINER
+========================= */
+
+.cavalli-container {
+  position: relative;
+
+  width: 100%;
+
+  font-size: 0;
+  line-height: 0;
+}
+
+
+
+.cavalli-panel {
+  position: relative;
+
+  width: 100%;
+}
+
+
+
+/* =========================
+CAVALLI IMAGES
+========================= */
+
+.cavalli-image {
+  width: 100%;
+  height: auto;
+
+  display: block;
+
+  margin: 0;
+  padding: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+
+/* =========================
+CAVALLI TOP BAR
+========================= */
+
+.cavalli-topbar {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+
+  z-index: 1000;
+}
+
+
+
+.cavalli-topbar-image {
+  width: 100%;
+  height: auto;
+
+  display: block;
+
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+
+/* =========================
+TOP BAR NAVIGATION
+========================= */
+
+.cavalli-nav-home,
+.cavalli-nav-projects,
+.cavalli-nav-about {
+  position: absolute;
+
+  top: 8%;
+  height: 86%;
+
+  display: block;
+
+  z-index: 1001;
+
+  cursor: pointer;
+}
+
+
+
+/* HOME */
+
+.cavalli-nav-home {
+  left: 52.777778%;
+  width: 8.75%;
+}
+
+
+
+/* PROJECTS */
+
+.cavalli-nav-projects {
+  left: 68.611111%;
+  width: 11.111111%;
+}
+
+
+
+/* ABOUT */
+
+.cavalli-nav-about {
+  left: 86.805556%;
+  width: 9.166667%;
+}
+
+
+
+/* =========================
+NUMBER NAVIGATION
+
+ALL NUMBERS:
+X = 1200
+W = 240
+H = 126
+
+1200 / 1440 = 83.333333%
+240 / 1440 = 16.666667%
+========================= */
+
+.cavalli-number {
+  position: absolute;
+
+  left: 83.333333%;
+
+  width: 16.666667%;
+  height: auto;
+
+  z-index: 20;
+}
+
+
+
+.cavalli-number-image {
+  width: 100%;
+  height: auto;
+
+  display: block;
+
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+
+/* =========================
+NUMBER CLICK AREAS
+========================= */
+
+.cavalli-number-down,
+.cavalli-number-up {
+  position: absolute;
+
+  left: 0;
+
+  width: 100%;
+
+  display: block;
+
+  cursor: pointer;
+
+  z-index: 21;
+}
+
+
+
+.cavalli-number-down {
+  top: 0;
+
+  height: 40%;
+}
+
+
+
+.cavalli-number-up {
+  bottom: 0;
+
+  height: 40%;
+}
+
+
+
+.cavalli-number-disabled {
+  pointer-events: none;
+
+  cursor: default;
+}
+
+
+
+/* =========================
+SCROLL TARGETS
+========================= */
+
+.cavalli-anchor {
+  position: absolute;
+
+  left: 0;
+
+  width: 1px;
+  height: 1px;
+
+  pointer-events: none;
+
+  scroll-margin-top: clamp(120px, 11vw, 220px);
+}
+
+
+
+/* ==================================================
+CAVALLI 01
+
+1440 x 4000
+
+Global:
+0 → 4000
+================================================== */
+
+
+/* NUMBER 01
+Y = 1300 */
+
+.cavalli-number-01,
+.cavalli-anchor-01 {
+  top: 32.5%;
+}
+
+
+
+/* NUMBER 02
+Y = 3650 */
+
+.cavalli-number-02,
+.cavalli-anchor-02 {
+  top: 91.25%;
+}
+
+
+
+/* ==================================================
+CAVALLI 02
+
+1440 x 4000
+
+Global:
+4000 → 8000
+================================================== */
+
+
+/* NUMBER 03
+
+Global Y = 5250
+Local = 1250 */
+
+.cavalli-number-03,
+.cavalli-anchor-03 {
+  top: 31.25%;
+}
+
+
+
+/* NUMBER 04
+
+Global Y = 7100
+Local = 3100 */
+
+.cavalli-number-04,
+.cavalli-anchor-04 {
+  top: 77.5%;
+}
+
+
+
+/* ==================================================
+CAVALLI 03
+
+1440 x 4000
+
+Global:
+8000 → 12000
+================================================== */
+
+
+/* NUMBER 05
+
+Global Y = 8400
+Local = 400 */
+
+.cavalli-number-05,
+.cavalli-anchor-05 {
+  top: 10%;
+}
+
+
+
+/* NUMBER 06
+
+Global Y = 9600
+Local = 1600 */
+
+.cavalli-number-06,
+.cavalli-anchor-06 {
+  top: 40%;
+}
+
+
+
+/* NUMBER 07
+
+Global Y = 10400
+Local = 2400 */
+
+.cavalli-number-07,
+.cavalli-anchor-07 {
+  top: 60%;
+}
+
+
+
+/* ==================================================
+CAVALLI 04
+
+1440 x 4286
+
+Global:
+12000 → 16286
+================================================== */
+
+
+/* NUMBER 08
+
+Global Y = 12320
+Local = 320
+
+320 / 4286
+========================= */
+
+.cavalli-number-08,
+.cavalli-anchor-08 {
+  top: 7.466169%;
+}
+
+
+
+/* NUMBER 09
+
+Global Y = 13620
+Local = 1620
+
+1620 / 4286
+========================= */
+
+.cavalli-number-09,
+.cavalli-anchor-09 {
+  top: 37.797480%;
+}
+
+
+
+/* NUMBER 10
+
+Global Y = 14486
+Local = 2486
+
+2486 / 4286
+========================= */
+
+.cavalli-number-10,
+.cavalli-anchor-10 {
+  top: 58.002800%;
+}

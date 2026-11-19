@@ -48,7 +48,6 @@ PROJECTS IMAGE
 
   user-select: none;
   -webkit-user-select: none;
-
   -webkit-user-drag: none;
 }
 
@@ -83,33 +82,33 @@ H = 478
 
 
 /* =========================
-01 - TAB
+01 - CAVALLI
 
 FIGMA:
 X = 40
+Y = 280
+W = 450
+H = 478
+========================= */
+
+.projects-cavalli {
+  left: 2.777778vw;
+  top: 19.444444vw;
+}
+
+
+
+/* =========================
+02 - TAB
+
+FIGMA:
+X = 495
 Y = 280
 W = 450
 H = 478
 ========================= */
 
 .projects-tab {
-  left: 2.777778vw;
-  top: 19.444444vw;
-}
-
-
-
-/* =========================
-02 - HYDE
-
-FIGMA:
-X = 495
-Y = 280
-W = 450
-H = 478
-========================= */
-
-.projects-hyde {
   left: 34.375vw;
   top: 19.444444vw;
 }
@@ -117,7 +116,7 @@ H = 478
 
 
 /* =========================
-03 - REFORM
+03 - HYDE
 
 FIGMA:
 X = 950
@@ -126,7 +125,7 @@ W = 450
 H = 478
 ========================= */
 
-.projects-reform {
+.projects-hyde {
   left: 65.972222vw;
   top: 19.444444vw;
 }
@@ -134,7 +133,7 @@ H = 478
 
 
 /* =========================
-04 - SPIDRONE
+04 - REFORM
 
 FIGMA:
 X = 40
@@ -143,7 +142,7 @@ W = 450
 H = 478
 ========================= */
 
-.projects-spidrone {
+.projects-reform {
   left: 2.777778vw;
   top: 65.138889vw;
 }
@@ -151,7 +150,7 @@ H = 478
 
 
 /* =========================
-05 - CUBANIM
+05 - SPIDRONE
 
 FIGMA:
 X = 495
@@ -160,7 +159,7 @@ W = 450
 H = 478
 ========================= */
 
-.projects-cubanim {
+.projects-spidrone {
   left: 34.375vw;
   top: 65.138889vw;
 }
@@ -168,7 +167,7 @@ H = 478
 
 
 /* =========================
-06 - PERSEVERANCE
+06 - CUBANIM
 
 FIGMA:
 X = 950
@@ -177,7 +176,7 @@ W = 450
 H = 478
 ========================= */
 
-.projects-perseverance {
+.projects-cubanim {
   left: 65.972222vw;
   top: 65.138889vw;
 }
@@ -185,7 +184,7 @@ H = 478
 
 
 /* =========================
-07 - TRANSPORTS
+07 - PERSEVERANCE
 
 FIGMA:
 X = 40
@@ -194,7 +193,7 @@ W = 450
 H = 478
 ========================= */
 
-.projects-transports {
+.projects-perseverance {
   left: 2.777778vw;
   top: 110.833333vw;
 }
@@ -202,7 +201,7 @@ H = 478
 
 
 /* =========================
-08 - SKETCH
+08 - TRANSPORTS
 
 FIGMA:
 X = 495
@@ -211,8 +210,25 @@ W = 450
 H = 478
 ========================= */
 
-.projects-sketch {
+.projects-transports {
   left: 34.375vw;
+  top: 110.833333vw;
+}
+
+
+
+/* =========================
+09 - SKETCH
+
+FIGMA:
+X = 950
+Y = 1596
+W = 450
+H = 478
+========================= */
+
+.projects-sketch {
+  left: 65.972222vw;
   top: 110.833333vw;
 }
 
